@@ -1,26 +1,33 @@
 # Epstein Email Explorer + One-Time AI Image Generation
 
 ## 1) Product Goal
-Build a Vercel-deployed web app that enables fast searching and browsing of the Epstein email corpus (via a proxy to the currently hosted source), and automatically generates **one persisted humorous image per email** using GPT-5.3 the first time that email is viewed.
+Build a Vercel-deployed web app that enables fast searching and browsing of the Epstein email corpus from `https://www.justice.gov/epstein` (via proxy/cache), and automatically generates **one persisted humorous image per email** using GPT-5.3 the first time that email is viewed.
 
 ### Core outcomes
 - Users can search/filter/browse emails with low latency.
 - Opening an email triggers image generation if no image exists yet.
 - Exactly one canonical image is associated with each email ID.
 - Generated image is persisted in cloud storage and reused on all future visits.
+- Generated images use an xkcd-style comic direction.
 - App is production-ready on Vercel with observability, guardrails, and rollout plan.
+
+### Product decisions captured
+- **Corpus source (initial):** `https://www.justice.gov/epstein`.
+- **Entry gating:** include an interstitial/checkbox flow to confirm user is 18+ before viewing corpus content.
+- **Image art direction:** humorous xkcd-style comics (single panel unless prompt requires otherwise).
 
 ---
 
 ## 2) Scope Definition
 
 ### In scope (Phase 1)
-- Read-only ingestion/proxy from existing email host/source.
+- Read-only ingestion/proxy from `justice.gov/epstein` corpus endpoints/pages.
 - Search + list + detail views for emails.
 - First-view image generation pipeline with idempotency.
 - Durable persistence of image metadata and binary object.
 - Vercel deployment with environment-based config.
 - Basic moderation/safety filters for generated prompts.
+- 18+ confirmation gate before accessing email content.
 - Admin/debug endpoints for regeneration audit (no public regenerate by default).
 
 ### Out of scope (Phase 1)
@@ -44,17 +51,19 @@ Build a Vercel-deployed web app that enables fast searching and browsing of the 
 
 ## Data flow (email detail open)
 1. User requests `/emails/[emailId]`.
-2. App fetches email content from normalized local DB cache (or proxy fallback).
-3. App checks `email_images` table for `email_id`.
-4. If image exists: return stored Blob URL.
-5. If not:
-   - Attempt atomic claim lock on `email_id`.
-   - Winner enqueues or directly runs generation job.
-   - Non-winners poll/retry until status resolves.
-6. Generator composes safe prompt from email text summary.
-7. GPT-5.3 returns image bytes.
-8. Bytes stored in Vercel Blob; metadata persisted in DB.
-9. Detail page updates to canonical image URL.
+2. If 18+ confirmation cookie/session flag is missing, redirect to age-confirm interstitial.
+3. On confirmation, user is returned to requested email detail route.
+4. App fetches email content from normalized local DB cache (or proxy fallback).
+5. App checks `email_images` table for `email_id`.
+6. If image exists: return stored Blob URL.
+7. If not:
+	   - Attempt atomic claim lock on `email_id`.
+	   - Winner enqueues or directly runs generation job.
+	   - Non-winners poll/retry until status resolves.
+8. Generator composes safe prompt from email text summary with xkcd-style direction.
+9. GPT-5.3 returns image bytes.
+10. Bytes stored in Vercel Blob; metadata persisted in DB.
+11. Detail page updates to canonical image URL.
 
 ## Idempotency & exactly-one-image strategy
 - Unique DB constraint: `UNIQUE(email_id)` on `email_images`.
@@ -84,6 +93,7 @@ Build a Vercel-deployed web app that enables fast searching and browsing of the 
 - `blob_url`
 - `blob_path`
 - `prompt_used`
+- `style_preset` (e.g., `xkcd`)
 - `model`
 - `status` (`stored`, `failed`, `moderated`)
 - `error_reason` (nullable)
@@ -120,6 +130,11 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 
 ## 6) UX / Product Behavior
 
+### 18+ gate UX
+- Interstitial on first visit requiring explicit 18+ confirmation checkbox/button.
+- Persist confirmation in secure, httpOnly cookie with renewal policy.
+- Include concise disclaimer and route-back to originally requested URL after acceptance.
+
 ### Browse/search UX
 - Search bar + filters (sender, date range, tags if available).
 - Fast, keyboard-friendly results list.
@@ -130,6 +145,7 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 - On failure/moderation: show fallback illustration + message.
 - Once stored: always show same canonical image.
 - Optional caption: “Generated from this email’s content (first view).”
+- Style should consistently render in xkcd-inspired black-and-white line-art comic format.
 
 ### Performance targets
 - Search response p95 < 400ms (warm path).
@@ -144,6 +160,7 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 - Output moderation check before publish.
 - Store provenance fields (`model`, `prompt_version`, moderation result).
 - Add abuse controls/rate limiting on generation trigger endpoint.
+- Track age-gate acceptance events for compliance auditing.
 
 ---
 
@@ -198,6 +215,7 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 
 ### A3: GPT-5.3 Image Generation Worker
 - Build prompt composer from email content summary.
+- Enforce xkcd-style prompt preset + visual consistency constraints.
 - Integrate model API and moderation checks.
 - Store generation artifacts and metadata.
 - Deliverable: deterministic one-image generation execution.
@@ -209,6 +227,7 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 - Deliverable: robust transactional integrity.
 
 ### A5: Frontend Experience
+- Build 18+ interstitial flow and session persistence behavior.
 - Build search page, results list, email detail view.
 - Add image states (ready/pending/fail/moderated).
 - Responsive layout and accessibility pass.
@@ -257,13 +276,13 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 ## 12) Delivery Milestones
 
 ### Milestone 0: Project Skeleton (Day 1)
-- Next.js app scaffold, DB connection, baseline UI shell, lint/test setup.
+- Next.js app scaffold, DB connection, baseline UI shell, 18+ gate skeleton, lint/test setup.
 
 ### Milestone 1: Searchable Corpus (Days 2–4)
 - Ingestion/proxy + searchable list/detail UI.
 
 ### Milestone 2: One-Time Image Generation (Days 4–7)
-- Full pipeline with idempotent locking and Blob persistence.
+- Full pipeline with idempotent locking, xkcd-style prompting, and Blob persistence.
 
 ### Milestone 3: Hardening (Days 7–9)
 - Moderation, retries, observability, performance tuning.
@@ -283,16 +302,16 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 ---
 
 ## 14) Open Questions Requiring Product Decisions
-1. What visual style should the generated humor images follow (comic, photoreal, caricature, surreal collage)?
-2. Should generated images be visible to everyone immediately, or hidden until moderation checks pass?
-3. Do you want explicit content disclaimers/watermarks on generated images?
-4. Is anonymous access allowed, or do we need lightweight auth/rate limits from day one?
-5. Which source dataset endpoints are stable and officially allowed for proxying/caching?
-6. Should we support “report image” feedback on launch?
-7. Do you want a dark mode and any specific brand/style direction?
-8. Do you want image generation to run synchronously on first view (slower first load) or asynchronously with live status updates?
-9. Are there geographic/legal constraints for where data and generated media may be stored?
-10. What initial budget guardrails do you want for model inference and storage?
+1. Should generated images be visible to everyone immediately, or hidden until moderation checks pass?
+2. Do you want explicit content disclaimers/watermarks on generated images?
+3. Is anonymous access allowed after 18+ confirmation, or do we need lightweight auth/rate limits from day one?
+4. Which specific justice.gov pages/APIs are approved for proxying/caching?
+5. Should we support “report image” feedback on launch?
+6. Do you want a dark mode and any specific brand/style direction?
+7. Do you want image generation to run synchronously on first view (slower first load) or asynchronously with live status updates?
+8. Are there geographic/legal constraints for where data and generated media may be stored?
+9. What initial budget guardrails do you want for model inference and storage?
+10. What should be the 18+ gate copy, legal disclaimer language, and cookie/session duration?
 
 ---
 
@@ -301,4 +320,3 @@ Response contract includes `imageState` (`ready|pending|failed|moderated`) and `
 - Approved architecture and milestone timeline.
 - Confirmed model endpoint for GPT-5.3 image generation.
 - Vercel/DB/Blob account availability and deployment ownership.
-
