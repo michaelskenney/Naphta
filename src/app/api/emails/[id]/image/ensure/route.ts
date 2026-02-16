@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import { after } from "next/server";
 import { db } from "@/db";
 import { emails, emailImages, imageJobs } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { toImageState } from "@/lib/image-state";
+import { processImageJob } from "@/lib/image-job-runner";
 import type { ImageStatusResponse } from "@/lib/types";
 
 export async function POST(
@@ -33,27 +35,86 @@ export async function POST(
     .limit(1);
 
   if (existing[0]) {
+    const status = existing[0].status;
+
+    // If stored/moderated, return final state — no work needed
+    if (status === "stored" || status === "moderated") {
+      const body: ImageStatusResponse = {
+        emailId: id,
+        state: toImageState(status),
+        imageUrl: existing[0].blobUrl,
+        errorReason: null,
+      };
+      return NextResponse.json(body);
+    }
+
+    // If queued/failed, re-enqueue a new job to retry processing
+    if (status === "queued" || status === "failed") {
+      await db
+        .update(emailImages)
+        .set({ status: "queued", updatedAt: new Date() })
+        .where(eq(emailImages.emailId, id));
+
+      const [job] = await db
+        .insert(imageJobs)
+        .values({ emailId: id })
+        .returning({ id: imageJobs.id });
+
+      if (job) {
+        after(async () => {
+          try {
+            await processImageJob(job.id);
+          } catch (err) {
+            console.error(
+              `Background image job ${job.id} failed:`,
+              err,
+            );
+          }
+        });
+      }
+    }
+
+    // generating/queued — just report pending
     const body: ImageStatusResponse = {
       emailId: id,
-      state: toImageState(existing[0].status),
-      imageUrl: existing[0].blobUrl,
+      state: "pending",
+      imageUrl: null,
+      errorReason: null,
     };
     return NextResponse.json(body);
   }
 
-  // Idempotent claim: INSERT ... ON CONFLICT DO NOTHING
+  // No record — idempotent claim: INSERT ... ON CONFLICT DO NOTHING
   await db.execute(
     sql`INSERT INTO email_images (email_id, status, created_at, updated_at)
         VALUES (${id}, 'queued', now(), now())
         ON CONFLICT (email_id) DO NOTHING`,
   );
 
-  await db.insert(imageJobs).values({ emailId: id });
+  const [job] = await db
+    .insert(imageJobs)
+    .values({ emailId: id })
+    .returning({ id: imageJobs.id });
+
+  // Process the job after the response is sent
+  if (job) {
+    after(async () => {
+      try {
+        await processImageJob(job.id);
+      } catch (err) {
+        console.error(
+          `Background image job ${job.id} failed:`,
+          err,
+        );
+      }
+    });
+  }
 
   const body: ImageStatusResponse = {
     emailId: id,
     state: "pending",
     imageUrl: null,
+    errorReason: null,
   };
 
   return NextResponse.json(body, { status: 201 });

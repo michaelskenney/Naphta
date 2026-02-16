@@ -1,4 +1,4 @@
-import { eq, and, lte, isNull, or, sql } from "drizzle-orm";
+import { eq, and, lte, isNull, or } from "drizzle-orm";
 import { db } from "@/db";
 import {
   emails,
@@ -50,20 +50,18 @@ export async function processImageJob(
     attempt: job.attemptCount + 1,
   });
 
-  const result = await generateAndStoreImage(
-    job.emailId,
-    email.subject,
-    email.bodyText,
-  );
-
-  if (result) {
-    await onJobSuccess(jobId, job.emailId, result);
-  } else {
-    await markJobFailed(
-      jobId,
+  try {
+    const result = await generateAndStoreImage(
       job.emailId,
-      "generateAndStoreImage returned null",
+      email.subject,
+      email.bodyText,
     );
+    await onJobSuccess(jobId, job.emailId, result);
+  } catch (err) {
+    const message =
+      err instanceof Error ? err.message : String(err);
+    console.error(`Image generation failed for job ${jobId}:`, message);
+    await markJobFailed(jobId, job.emailId, message);
   }
 }
 
@@ -82,10 +80,10 @@ async function onJobSuccess(
     .values({
       emailId,
       blobUrl: result.blobUrl,
-      blobPath: `email-images/${emailId}.png`,
+      blobPath: null,
       promptUsed: result.prompt,
-      model: process.env.OPENAI_API_KEY
-        ? "gpt-image-1"
+      model: process.env.GEMINI_API_KEY
+        ? "gemini-2.5-flash-image"
         : "placeholder",
       status: "stored",
     })
@@ -96,12 +94,13 @@ async function onJobSuccess(
     .update(emailImages)
     .set({
       blobUrl: result.blobUrl,
-      blobPath: `email-images/${emailId}.png`,
+      blobPath: null,
       promptUsed: result.prompt,
-      model: process.env.OPENAI_API_KEY
-        ? "gpt-image-1"
+      model: process.env.GEMINI_API_KEY
+        ? "gemini-2.5-flash-image"
         : "placeholder",
       status: "stored",
+      errorReason: null,
       updatedAt: new Date(),
     })
     .where(eq(emailImages.emailId, emailId));

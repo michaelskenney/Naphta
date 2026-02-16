@@ -16,6 +16,7 @@ export default function EmailDetailPage({ params }: PageProps) {
   const [email, setEmail] = useState<EmailDetail | null>(null);
   const [imageState, setImageState] = useState<ImageState>("none");
   const [imageUrl, setImageUrl] = useState<string | null>(null);
+  const [errorReason, setErrorReason] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -45,6 +46,7 @@ export default function EmailDetailPage({ params }: PageProps) {
       const data = await res.json();
       setImageState(data.state);
       setImageUrl(data.imageUrl);
+      setErrorReason(data.errorReason ?? null);
       if (data.state !== "pending") clearInterval(interval);
     }, 2000);
 
@@ -105,7 +107,7 @@ export default function EmailDetailPage({ params }: PageProps) {
         </div>
 
         <div className="lg:w-2/5">
-          <ImagePanel state={imageState} imageUrl={imageUrl} />
+          <ImagePanel state={imageState} imageUrl={imageUrl} errorReason={errorReason} />
         </div>
       </div>
     </div>

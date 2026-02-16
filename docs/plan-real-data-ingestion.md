@@ -41,11 +41,23 @@ All code builds clean (`pnpm build` passes, `pnpm tsc --noEmit` passes).
 - Would require PDF download + OCR + parsing — heavy lift
 - Behind Akamai bot protection (search page blocked)
 
-### 4. Third-Party APIs (REFERENCE ONLY)
-- `epsteinemails.xyz` — structured JSON API, $0.001/request via crypto micropayments (x402 protocol)
-- `epstein.rizzn.net` — REST API with search, OCR text, pagination
-- `epsteingraph.com` — 1.3M documents indexed with network graphs
-- These are useful for cross-referencing but shouldn't be a primary dependency
+### 4. Third-Party APIs
+
+**VETTED — epsteingraph.com (INVESTIGATE FOR PHASE 3)**
+- Built by solo developer (`indienow` on Reddit r/datasets), Next.js + Postgres + D3.js
+- **1.3M documents** from DOJ Transparency Act, House Oversight, estate proceedings
+- **238K entities** extracted via OpenAI batch API with network graph visualization
+- Free, no paywalls, crowdsourced uploads, responsible "co-occurrence ≠ causation" disclaimers
+- Potential value: entity extraction data, network graphs, cross-referencing our email corpus
+- **Status**: Legit transparency project. API capabilities unknown — needs investigation before integration.
+- See "Step 7" below for investigation plan.
+
+**SKIP — epsteinemails.xyz**
+- Charges crypto micropayments (x402 protocol) for public domain government documents
+- No reason to pay for data freely available from HuggingFace and DOJ
+
+**SKIP — epstein.rizzn.net**
+- Insufficient web presence to validate legitimacy
 
 ---
 
@@ -153,11 +165,93 @@ After emails are working, optionally ingest the `theelderemo/FULL_EPSTEIN_INDEX`
 
 This is a Phase 2 concern.
 
+### Step 7: Investigate epsteingraph.com API (Phase 3)
+
+The epsteingraph.com project indexes 1.3M documents with AI entity extraction and network graphs. Before any integration, we need to understand what API surface (if any) it exposes and whether its data would complement our email corpus.
+
+**Investigation goals:**
+1. Determine if epsteingraph.com has a public API (REST, GraphQL, or otherwise)
+2. Document available endpoints, rate limits, auth requirements
+3. Assess data overlap with our HuggingFace email dataset
+4. Evaluate entity/relationship data quality — could we import their 238K extracted entities?
+5. Check if their network graph data (D3.js) is exportable or API-accessible
+6. Identify what document types they have that we don't (flight logs, court filings, videos, audio)
+7. Determine data freshness — do they update as new DOJ releases come out?
+
+**Integration possibilities (if API exists):**
+- Cross-reference our email senders/recipients against their entity graph
+- Import entity metadata (roles, relationships) to enrich our email records
+- Link our emails to related non-email documents (court filings, flight logs)
+- Display network connections on email detail pages
+
+**Do NOT integrate until:**
+- API stability and reliability are confirmed
+- Data licensing/terms are reviewed
+- We verify the entity extraction quality against primary sources
+
 ---
 
-## Agent Prompt
+## Agent Prompt: Investigate epsteingraph.com API
 
-Use this prompt to execute the plan:
+Use this prompt to investigate the epsteingraph.com API:
+
+```
+You are working on the Naphta project at /Users/zmoney/src/github.com/michaelskenney/naphta
+
+Naphta is an Epstein email corpus explorer. We have 16,447 real emails ingested from the
+HuggingFace `notesbymuneeb/epstein-emails` dataset. We want to evaluate epsteingraph.com
+as a potential data source for enriching our corpus.
+
+READ FIRST:
+- docs/plan-real-data-ingestion.md (Step 7 — your instructions)
+- CLAUDE.md (project conventions)
+
+YOUR JOB IS RESEARCH ONLY — do NOT write any integration code.
+
+TASKS:
+
+1. Investigate epsteingraph.com for API endpoints:
+   - Check for /api/* routes, GraphQL endpoints, or documented APIs
+   - Look at their GitHub repo if public (creator: indienow on Reddit)
+   - Inspect network requests on their site to find undocumented APIs
+   - Check robots.txt and sitemap.xml for clues
+
+2. If an API exists, document:
+   - Available endpoints and their response shapes
+   - Authentication requirements (API key, open, rate-limited?)
+   - Pagination patterns
+   - Entity data schema (what fields per entity?)
+   - Network/relationship data format
+   - Rate limits or usage restrictions
+
+3. Assess data quality:
+   - Pick 5-10 entities that appear in our email corpus (e.g., known senders)
+   - Check if epsteingraph.com has matching entity data
+   - Evaluate whether their entity extraction adds value beyond what we have
+
+4. Check for overlap with our dataset:
+   - Do they index the same House Oversight email documents?
+   - What document types do they have that we lack?
+   - Is their OCR/text extraction higher quality than the HuggingFace dataset?
+
+5. Write findings to docs/epsteingraph-api-investigation.md:
+   - API capabilities summary
+   - Data quality assessment
+   - Recommended integration approach (or reasons to skip)
+   - Any concerns (stability, data accuracy, terms of use)
+
+IMPORTANT:
+- This is a research task — do NOT modify any source code
+- Do NOT create database schemas or integration code
+- Do NOT make excessive requests to their site — be respectful
+- Be skeptical — verify claims against primary sources where possible
+```
+
+---
+
+## Agent Prompt: Ingest Real Data (COMPLETED)
+
+Use this prompt to execute the original data ingestion plan:
 
 ```
 You are working on the Naphta project at /Users/zmoney/src/github.com/michaelskenney/naphta
@@ -215,12 +309,13 @@ IMPORTANT:
 
 ## Verification Checklist
 
-- [ ] `threadId` column added to schema
-- [ ] `src/db/ingest.ts` created and working
-- [ ] `db:ingest` script added to package.json
-- [ ] 16K+ real messages ingested into Neon
-- [ ] Search upgraded from ILIKE to full-text search
-- [ ] API returns real email data
-- [ ] `pnpm tsc --noEmit` passes
-- [ ] `pnpm build` passes
-- [ ] Old seed data removed or archived
+- [x] `threadId` column added to schema
+- [x] `src/db/ingest.ts` created and working
+- [x] `db:ingest` script added to package.json
+- [x] 16,447 real messages ingested into Neon (97.6% with parsed timestamps)
+- [x] Search upgraded from ILIKE to full-text search (expression-based GIN index)
+- [x] API returns real email data
+- [x] `pnpm tsc --noEmit` passes
+- [x] `pnpm build` passes
+- [x] Old seed data removed (`seed.ts` deleted)
+- [ ] Investigate epsteingraph.com API (Phase 3 — see Step 7)

@@ -1,11 +1,22 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { emails, emailImages } from "@/db/schema";
-import { desc, ilike, or, sql, eq } from "drizzle-orm";
+import { sql, eq } from "drizzle-orm";
 import { toImageState } from "@/lib/image-state";
 import type { EmailListItem, EmailSearchResponse } from "@/lib/types";
 
 const MAX_PAGE_SIZE = 100;
+
+function buildSearchClause(query: string) {
+  const tsQuery = query
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((term) => term.replace(/[^\w]/g, ""))
+    .filter(Boolean)
+    .join(" & ");
+  if (!tsQuery) return undefined;
+  return sql`to_tsvector('english', coalesce(${emails.subject}, '') || ' ' || coalesce(${emails.sender}, '') || ' ' || coalesce(${emails.bodyText}, '')) @@ to_tsquery('english', ${tsQuery})`;
+}
 
 export async function GET(request: NextRequest) {
   const params = request.nextUrl.searchParams;
@@ -17,12 +28,7 @@ export async function GET(request: NextRequest) {
   );
   const offset = (page - 1) * pageSize;
 
-  const whereClause = query
-    ? or(
-        ilike(emails.subject, `%${query}%`),
-        ilike(emails.bodyText, `%${query}%`),
-      )
-    : undefined;
+  const whereClause = query ? buildSearchClause(query) : undefined;
 
   const [rows, countResult] = await Promise.all([
     db
@@ -37,7 +43,7 @@ export async function GET(request: NextRequest) {
       .from(emails)
       .leftJoin(emailImages, eq(emails.id, emailImages.emailId))
       .where(whereClause)
-      .orderBy(desc(emails.sentAt))
+      .orderBy(sql`${emails.sentAt} DESC NULLS LAST`)
       .limit(pageSize)
       .offset(offset),
     db

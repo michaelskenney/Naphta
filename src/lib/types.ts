@@ -34,4 +34,21 @@ export interface ImageStatusResponse {
   emailId: string;
   state: ImageState;
   imageUrl: string | null;
+  errorReason: string | null;
+}
+
+export interface GalleryItem {
+  emailId: string;
+  subject: string | null;
+  sender: string | null;
+  sentAt: string | null;
+  imageUrl: string | null;
+  promptUsed: string | null;
+  model: string | null;
+  generatedAt: string | null;
+}
+
+export interface GalleryResponse {
+  images: GalleryItem[];
+  total: number;
 }

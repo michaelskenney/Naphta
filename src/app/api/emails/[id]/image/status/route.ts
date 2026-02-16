@@ -12,7 +12,11 @@ export async function GET(
   const { id } = await params;
 
   const rows = await db
-    .select({ status: emailImages.status, blobUrl: emailImages.blobUrl })
+    .select({
+      status: emailImages.status,
+      blobUrl: emailImages.blobUrl,
+      errorReason: emailImages.errorReason,
+    })
     .from(emailImages)
     .where(eq(emailImages.emailId, id))
     .limit(1);
@@ -22,6 +26,7 @@ export async function GET(
     emailId: id,
     state: toImageState(row?.status),
     imageUrl: row?.blobUrl ?? null,
+    errorReason: row?.errorReason ?? null,
   };
 
   return NextResponse.json(body);

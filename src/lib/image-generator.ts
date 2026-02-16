@@ -1,103 +1,82 @@
-import { put } from "@vercel/blob";
+import { GoogleGenAI } from "@google/genai";
 
 const PLACEHOLDER_URL =
   "https://placehold.co/512x512/1a1a2e/eee?text=Generated+Image";
 
-/** Call OpenAI images API and return raw image bytes. */
-export async function generateImage(
-  prompt: string,
-): Promise<Buffer | null> {
-  const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) return null;
+const MODEL = "gemini-2.5-flash-image";
 
-  const response = await fetch(
-    "https://api.openai.com/v1/images/generations",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: "gpt-image-1",
-        prompt,
-        n: 1,
-        size: "1024x1024",
-      }),
-    },
-  );
-
-  if (!response.ok) {
-    const text = await response.text();
-    console.error(`OpenAI API error (${response.status}): ${text}`);
-    return null;
+export class ImageGenerationError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "ImageGenerationError";
   }
-
-  const json = (await response.json()) as {
-    data?: Array<{ url?: string; b64_json?: string }>;
-  };
-
-  const entry = json.data?.[0];
-  if (!entry) {
-    console.error("OpenAI returned no image data");
-    return null;
-  }
-
-  if (entry.b64_json) {
-    return Buffer.from(entry.b64_json, "base64");
-  }
-
-  if (entry.url) {
-    const imgResponse = await fetch(entry.url);
-    if (!imgResponse.ok) {
-      console.error(`Failed to download image: ${imgResponse.status}`);
-      return null;
-    }
-    const arrayBuffer = await imgResponse.arrayBuffer();
-    return Buffer.from(arrayBuffer);
-  }
-
-  console.error("OpenAI response missing both url and b64_json");
-  return null;
 }
 
-/** Upload image bytes to Vercel Blob storage. */
-export async function uploadToBlob(
-  imageBuffer: Buffer,
-  emailId: string,
-): Promise<string> {
-  const blob = await put(
-    `email-images/${emailId}.png`,
-    imageBuffer,
-    { access: "public", contentType: "image/png" },
+/** Call Gemini image generation API and return raw image bytes. */
+export async function generateImage(
+  prompt: string,
+): Promise<{ buffer: Buffer; mimeType: string }> {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    throw new ImageGenerationError("GEMINI_API_KEY is not set");
+  }
+
+  const ai = new GoogleGenAI({ apiKey });
+
+  const response = await ai.models.generateContent({
+    model: MODEL,
+    contents: prompt,
+    config: {
+      responseModalities: ["IMAGE"],
+    },
+  });
+
+  const parts = response.candidates?.[0]?.content?.parts;
+  if (!parts) {
+    throw new ImageGenerationError(
+      "Gemini returned no content parts",
+    );
+  }
+
+  for (const part of parts) {
+    if (part.inlineData?.data) {
+      return {
+        buffer: Buffer.from(part.inlineData.data, "base64"),
+        mimeType: part.inlineData.mimeType ?? "image/png",
+      };
+    }
+  }
+
+  throw new ImageGenerationError(
+    "Gemini response contained no image data",
   );
-  return blob.url;
+}
+
+/** Encode image bytes as a data URL for direct DB storage. */
+function toDataUrl(buffer: Buffer, mimeType: string): string {
+  return `data:${mimeType};base64,${buffer.toString("base64")}`;
 }
 
 /**
- * End-to-end: compose prompt, generate image, upload to blob.
- * Returns placeholder in mock mode (no API key).
+ * End-to-end: compose prompt, generate image, return as data URL.
+ * Set IMAGE_MOCK=true to skip Gemini and use placeholder images.
+ * Throws ImageGenerationError with a descriptive message on failure.
  */
 export async function generateAndStoreImage(
   emailId: string,
   subject: string | null,
   bodyText: string | null,
-): Promise<{ blobUrl: string; prompt: string } | null> {
+): Promise<{ blobUrl: string; prompt: string }> {
   const { composeImagePrompt } = await import(
     "@/lib/prompt-composer"
   );
   const prompt = composeImagePrompt(subject, bodyText);
 
-  const imageBuffer = await generateImage(prompt);
-
-  if (!imageBuffer) {
-    // Mock mode — no API key or generation failed
-    if (!process.env.OPENAI_API_KEY) {
-      return { blobUrl: PLACEHOLDER_URL, prompt };
-    }
-    return null;
+  if (process.env.IMAGE_MOCK === "true") {
+    return { blobUrl: PLACEHOLDER_URL, prompt };
   }
 
-  const blobUrl = await uploadToBlob(imageBuffer, emailId);
+  const { buffer, mimeType } = await generateImage(prompt);
+  const blobUrl = toDataUrl(buffer, mimeType);
   return { blobUrl, prompt };
 }

@@ -11,6 +11,7 @@ export const emails = pgTable(
   "emails",
   {
     id: varchar("id", { length: 255 }).primaryKey(),
+    threadId: varchar("thread_id", { length: 255 }),
     sourceUrl: text("source_url"),
     subject: text("subject"),
     sender: text("sender"),
@@ -24,6 +25,7 @@ export const emails = pgTable(
   (table) => [
     index("emails_sender_idx").on(table.sender),
     index("emails_sent_at_idx").on(table.sentAt),
+    index("emails_thread_id_idx").on(table.threadId),
   ],
 );
 

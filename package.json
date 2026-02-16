@@ -8,10 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "db:push": "drizzle-kit push",
-    "db:seed": "tsx --env-file=.env.local src/db/seed.ts",
-    "db:setup": "pnpm db:push && pnpm db:seed"
+    "db:ingest": "tsx --env-file=.env.local src/db/ingest.ts",
+    "db:setup": "pnpm db:push && pnpm db:ingest"
   },
   "dependencies": {
+    "@google/genai": "^1.41.0",
     "@neondatabase/serverless": "^1.0.2",
     "@vercel/blob": "^2.2.0",
     "drizzle-orm": "^0.45.1",
