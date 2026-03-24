@@ -1790,13 +1790,6 @@
   {
     "book": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
     "author": "Buchanan, Ben",
-    "text": "journalist Kim Zetter noted in her detailed history of Stuxnet:",
-    "location": "709-709",
-    "date": "Tuesday, April 4, 2017 7:35:56 AM"
-  },
-  {
-    "book": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
-    "author": "Buchanan, Ben",
     "text": "They require time, discipline, patience, trained people, well-crafted tools, and careful advance planning. This means that states cannot wait until a crisis to begin building their capabilities or launching their intrusions.",
     "location": "822-824",
     "date": "Tuesday, April 4, 2017 7:48:51 AM"
@@ -2157,13 +2150,6 @@
     "text": "Unlike in traditional security dilemma formulations, in cyber operations the attack might come from non-state actors as well as from other states. These non-state actors render security dilemma calculations, and signaling in general, more complex.",
     "location": "2191-2192",
     "date": "Monday, April 17, 2017 4:29:01 PM"
-  },
-  {
-    "book": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
-    "author": "Buchanan, Ben",
-    "text": "(such as Presidential Policy Directive 20, discussed in the last chapter) are highly classified,",
-    "location": "2240-2240",
-    "date": "Monday, April 17, 2017 4:42:29 PM"
   },
   {
     "book": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
@@ -3441,7 +3427,7 @@
   {
     "book": "Beyond Cybersecurity: Protecting Your Digital Business",
     "author": "Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris",
-    "text": "Deciding to consolidate is relatively straightforward, but selecting the right role and reporting relationship for the CISO’s organization is much more complicated. There are four fairly common models:",
+    "text": "Deciding to consolidate is relatively straightforward, but selecting the right role and reporting relationship for the CISO’s organization is much more complicated.",
     "location": "4068-4069",
     "date": "Tuesday, June 20, 2017 6:28:50 PM"
   },
@@ -5161,14 +5147,6 @@
   {
     "book": "Risk: A Very Short Introduction (Very Short Introductions)",
     "author": "Fischhoff, Baruch",
-    "text": "When new dangers emerge, society must learn their causes and controls, weigh their demands,",
-    "location": "1936-1937",
-    "date": "Tuesday, February 13, 2018 10:07:06 AM",
-    "page": "138"
-  },
-  {
-    "book": "Risk: A Very Short Introduction (Very Short Introductions)",
-    "author": "Fischhoff, Baruch",
     "text": "When new dangers emerge, society must learn their causes and controls, weigh their demands, and give meaning to the choices that follow.",
     "location": "1936-1937",
     "date": "Tuesday, February 13, 2018 10:07:20 AM",
@@ -5967,14 +5945,6 @@
     "location": "463-465",
     "date": "Monday, June 18, 2018 9:52:15 PM",
     "page": "38"
-  },
-  {
-    "book": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence",
-    "author": "Pollan, Michael",
-    "text": "of things? To the extent I regard the experience as veridical—",
-    "location": "611-611",
-    "date": "Tuesday, June 19, 2018 3:24:27 PM",
-    "page": "49"
   },
   {
     "book": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence",
@@ -7143,14 +7113,6 @@
   {
     "book": "The Perfect Weapon: War, Sabotage, and Fear in the Cyber Age",
     "author": "Sanger, David E.",
-    "text": "Jared Cohen, the former State Department official who now runs Alphabet’s Jigsaw, a part of the Google parent company, which has done pioneering work in how to make people safer on the Internet,",
-    "location": "4774-4775",
-    "date": "Wednesday, December 19, 2018 9:09:52 AM",
-    "page": "288"
-  },
-  {
-    "book": "The Perfect Weapon: War, Sabotage, and Fear in the Cyber Age",
-    "author": "Sanger, David E.",
     "text": "Brian Lord, a former deputy director for intelligence and cyber operations at Britain’s GCHQ. “All I have to do is create a moderately disabling attack on a key part of the social infrastructure, and then watch the media sensationalize it and panic the public.”",
     "location": "4789-4792",
     "date": "Wednesday, December 19, 2018 9:11:51 AM",
@@ -7369,13 +7331,6 @@
     "text": "for me?” “Yeah, I just thought I’d work out. Like to see what you think. Billy Tully told me I ought to come by.”",
     "location": "205-206",
     "date": "Saturday, February 9, 2019 9:54:16 AM"
-  },
-  {
-    "book": "Listening In: Cybersecurity in an Insecure Age",
-    "author": "Landau, Susan",
-    "text": "In 2016, the US director of national intelligence, James Clapper, observed, “In the future, intelligence services might use the [Internet of Things] for identification, surveillance, monitoring, location tracking, and targeting for recruitment,",
-    "location": "1862-1863",
-    "date": "Thursday, February 14, 2019 12:20:14 AM"
   },
   {
     "book": "Listening In: Cybersecurity in an Insecure Age",
@@ -7813,14 +7768,6 @@
   {
     "book": "Tools and Weapons",
     "author": "Smith, Brad",
-    "text": "One member of the LENS team is on call 24-7, meaning for a week at a time he or she will sleep next to a phone in case there is an emergency or terrorist incident somewhere in the world that requires immediate action. During weeks when the world is turned upside down, members of the LENS team take turns being on call,",
-    "location": "562-564",
-    "date": "Wednesday, September 18, 2019 9:35:37 PM",
-    "page": "25"
-  },
-  {
-    "book": "Tools and Weapons",
-    "author": "Smith, Brad",
     "text": "One member of the LENS team is on call 24-7, meaning for a week at a time he or she will sleep next to a phone in case there is an emergency or terrorist incident somewhere in the world that requires immediate action. During weeks when the world is turned upside down, members of the LENS team take turns being on call, so each person gets enough sleep to be alert on the job.",
     "location": "562-565",
     "date": "Wednesday, September 18, 2019 9:35:42 PM",
@@ -8060,13 +8007,6 @@
   {
     "book": "Memories, Dreams, Reflections",
     "author": "Jung, C.G.",
-    "text": "on me that the unjust steward was praised, and that Peter, the waverer,",
-    "location": "767-767",
-    "date": "Wednesday, November 13, 2019 10:01:41 PM"
-  },
-  {
-    "book": "Memories, Dreams, Reflections",
-    "author": "Jung, C.G.",
     "text": "Peter, the waverer, was appointed the rock upon which the Church was built.",
     "location": "767-768",
     "date": "Wednesday, November 13, 2019 10:01:45 PM"
@@ -8293,13 +8233,6 @@
     "text": "He wanted only moral support at the hands of some female, because he found men difficult to talk to about ideals.",
     "location": "1953-1954",
     "date": "Friday, April 3, 2020 10:08:18 PM"
-  },
-  {
-    "book": "The Good Soldier",
-    "author": "Ford, Ford Madox",
-    "text": "threadbare business. When they went up to a place called Simla,",
-    "location": "2080-2081",
-    "date": "Thursday, April 9, 2020 9:13:33 PM"
   },
   {
     "book": "The Good Soldier",
@@ -8681,14 +8614,6 @@
     "location": "1633-1634",
     "date": "Thursday, July 16, 2020 10:04:02 PM",
     "page": "117"
-  },
-  {
-    "book": "Memories, Dreams, Reflections",
-    "author": "Jung, Carl Gustav",
-    "text": "while science opened the door to enormous quantities of knowledge,",
-    "location": "1698-1698",
-    "date": "Thursday, July 16, 2020 10:12:55 PM",
-    "page": "122"
   },
   {
     "book": "Memories, Dreams, Reflections",
@@ -9234,14 +9159,6 @@
   {
     "book": "Miss Lonelyhearts & The Day of the Locust (New Edition)",
     "author": "New Directions Paperbook",
-    "text": "He sat near Harry’s bed and listened to his stories by the hour. Forty years in vaudeville and burlesque had provided him with an infinite number of them. As he put it, his life had consisted of a lightning series of “nip-ups,” “high-gruesomes,” “flying-W’s” and “hundred-and-eights” done to escape a barrage of “exploding stoves.” An “exploding stove” was any catastrophe, natural or human, from a flood in Medicine Hat, Wyoming,",
-    "location": "1389-1392",
-    "date": "Sunday, March 28, 2021 9:37:35 PM",
-    "page": "76"
-  },
-  {
-    "book": "Miss Lonelyhearts & The Day of the Locust (New Edition)",
-    "author": "New Directions Paperbook",
     "text": "He sat near Harry’s bed and listened to his stories by the hour. Forty years in vaudeville and burlesque had provided him with an infinite number of them. As he put it, his life had consisted of a lightning series of “nip-ups,” “high-gruesomes,” “flying-W’s” and “hundred-and-eights” done to escape a barrage of “exploding stoves.” An “exploding stove” was any catastrophe, natural or human, from a flood in Medicine Hat, Wyoming, to an angry policeman in Moose Factory, Ontario.",
     "location": "1389-1393",
     "date": "Sunday, March 28, 2021 9:37:40 PM",
@@ -9414,14 +9331,6 @@
     "location": "3109-3111",
     "date": "Tuesday, April 13, 2021 9:21:52 PM",
     "page": "177"
-  },
-  {
-    "book": "Miss Lonelyhearts & The Day of the Locust (New Edition)",
-    "author": "New Directions Paperbook",
-    "text": "Every day of their lives they read the newspapers and went to the movies. Both fed them on lynchings, murder, sex crimes, explosions, wrecks, love nests, fires, miracles, revolutions,",
-    "location": "3115-3116",
-    "date": "Tuesday, April 13, 2021 9:22:44 PM",
-    "page": "178"
   },
   {
     "book": "Miss Lonelyhearts & The Day of the Locust (New Edition)",
@@ -9652,14 +9561,6 @@
     "location": "3377-3378",
     "date": "Sunday, December 12, 2021 11:17:39 PM",
     "page": "208"
-  },
-  {
-    "book": "The Great Alone",
-    "author": "Hannah, Kristin",
-    "text": "Mr. Walker walked toward them,",
-    "location": "3389-3389",
-    "date": "Sunday, December 12, 2021 11:18:55 PM",
-    "page": "209"
   },
   {
     "book": "The Great Alone",
@@ -11030,14 +10931,7 @@
     "date": "Sunday, June 4, 2023 9:47:20 PM",
     "page": "2682"
   },
-  {
-    "book": "Thomas Wolfe: The Complete Works",
-    "author": "Wolfe, Thomas",
-    "text": "“The tarantula, the adder, and the asp will also never change. Pain and death will always be the same. But under the pavements trembling like a pulse, under the buildings trembling like a cry, under the waste of time, under the hoof of the beast above the broken bones of cities, there will be something growing like a flower, something bursting from the earth again,",
-    "location": "37727-37729",
-    "date": "Sunday, June 11, 2023 9:42:05 PM",
-    "page": "2683"
-  },
+
   {
     "book": "Thomas Wolfe: The Complete Works",
     "author": "Wolfe, Thomas",
@@ -11068,14 +10962,6 @@
     "text": "The prospect of the funeral filled him with dread, but that was still a day off; meanwhile",
     "location": "37773-37774",
     "date": "Monday, June 12, 2023 10:20:57 PM",
-    "page": "2686"
-  },
-  {
-    "book": "Thomas Wolfe: The Complete Works",
-    "author": "Wolfe, Thomas",
-    "text": "he had a long train ride ahead of him, and he pushed his somber feelings into the background and allowed himself to savor freely the eager excitement which any journey by train always gave him. The station, as he entered it,",
-    "location": "37774-37775",
-    "date": "Monday, June 12, 2023 10:21:15 PM",
     "page": "2686"
   },
   {
@@ -11996,14 +11882,6 @@
   {
     "book": "Memories, Dreams, Reflections",
     "author": "Jung, Carl Gustav",
-    "text": "gods. For the devout Asiatic,",
-    "location": "3646-3646",
-    "date": "Thursday, July 18, 2024 9:05:46 PM",
-    "page": "260"
-  },
-  {
-    "book": "Memories, Dreams, Reflections",
-    "author": "Jung, Carl Gustav",
     "text": "have done without electricity, and tend the fireplace and stove myself. Evenings, I light the old lamps. There is no running water, and I pump the water from the well. I chop the wood and cook the food.",
     "location": "3759-3760",
     "date": "Monday, August 12, 2024 9:11:56 PM",
@@ -12167,14 +12045,6 @@
     "location": "1277-1280",
     "date": "Wednesday, August 28, 2024 9:52:27 PM",
     "page": "101"
-  },
-  {
-    "book": "The Sun Also Rises (AmazonClassics Edition)",
-    "author": "Hemingway, Ernest",
-    "text": "has nothing to do with the story. Anyway, his office had a green baize door and a big wooden door,",
-    "location": "1304-1305",
-    "date": "Wednesday, August 28, 2024 9:57:20 PM",
-    "page": "103"
   },
   {
     "book": "The Sun Also Rises (AmazonClassics Edition)",
@@ -13094,14 +12964,6 @@
   {
     "book": "The Year of Magical Thinking (Vintage International)",
     "author": "Didion, Joan",
-    "text": "Five Days in London: May 1940,",
-    "location": "2265-2265",
-    "date": "Monday, April 21, 2025 8:44:06 PM",
-    "page": "216"
-  },
-  {
-    "book": "The Year of Magical Thinking (Vintage International)",
-    "author": "Didion, Joan",
     "text": "John Lukacs’s Five Days in London: May 1940,",
     "location": "2265-2265",
     "date": "Monday, April 21, 2025 8:44:14 PM",
@@ -13230,14 +13092,6 @@
   {
     "book": "The Bell Jar (Modern Classics)",
     "author": "Plath, Sylvia",
-    "text": "I told Doreen I would not go to the show or the luncheon or the film première, but that I would not go to Coney Island either, I would stay in bed. After Doreen left, I wondered why I couldn’t go the whole way doing what I should any more. This made me sad and tired. Then I wondered why I couldn’t go the whole way doing what I shouldn’t,",
-    "location": "526-529",
-    "date": "Tuesday, May 20, 2025 9:16:18 PM",
-    "page": "34"
-  },
-  {
-    "book": "The Bell Jar (Modern Classics)",
-    "author": "Plath, Sylvia",
     "text": "I told Doreen I would not go to the show or the luncheon or the film première, but that I would not go to Coney Island either, I would stay in bed. After Doreen left, I wondered why I couldn’t go the whole way doing what I should any more. This made me sad and tired. Then I wondered why I couldn’t go the whole way doing what I shouldn’t, the way Doreen did, and this made me even sadder and more tired.",
     "location": "526-529",
     "date": "Tuesday, May 20, 2025 9:16:23 PM",
@@ -13290,22 +13144,6 @@
     "location": "48-48",
     "date": "Monday, June 9, 2025 10:03:54 PM",
     "page": "2"
-  },
-  {
-    "book": "The Crying of Lot 49",
-    "author": "Pynchon, Thomas",
-    "text": "Negro, then on into hostile Pachuco dialect, full of chingas and maricones;",
-    "location": "56-57",
-    "date": "Monday, June 9, 2025 10:06:19 PM",
-    "page": "3"
-  },
-  {
-    "book": "The Crying of Lot 49",
-    "author": "Pynchon, Thomas",
-    "text": "modulated to comic-Negro, then on into hostile Pachuco dialect, full of chingas",
-    "location": "56-57",
-    "date": "Monday, June 9, 2025 10:06:33 PM",
-    "page": "3"
   },
   {
     "book": "The Crying of Lot 49",
@@ -13465,7 +13303,7 @@
   {
     "book": "The Complete Fiction of H. P. Lovecraft",
     "author": "Lovecraft, H. P.",
-    "text": "this fraction. It is well that no explanation shall ever reach them. The press cuttings, as I have intimated, touched on cases of panic,",
+    "text": "It is well that no explanation shall ever reach them. The press cuttings, as I have intimated, touched on cases of panic,",
     "location": "6125-6126",
     "date": "Thursday, September 25, 2025 11:08:02 PM"
   },
@@ -13955,14 +13793,6 @@
     "location": "126-126",
     "date": "Wednesday, February 18, 2026 10:33:31 PM",
     "page": "10"
-  },
-  {
-    "book": "Steppenwolf (Picador Modern Classics)",
-    "author": "Hesse, Hermann",
-    "text": "As for others and the world around him he never ceased in his heroic and earnest endeavor to love them, to be just to them, to do them no harm, for the love of his neighbor was as deeply in him as the hatred of himself, and so his whole life was an example that love of one’s neighbor is not possible without love of oneself, and that self-hate is really the same thing as sheer egoism,",
-    "location": "145-147",
-    "date": "Wednesday, February 18, 2026 10:37:03 PM",
-    "page": "11"
   },
   {
     "book": "Steppenwolf (Picador Modern Classics)",
