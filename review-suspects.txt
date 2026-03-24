@@ -1,0 +1,478 @@
+# Naphta Highlights — Remaining Suspects for Manual Review
+# Generated from 1884 total highlights
+# 94 highlights that end mid-sentence (comma, semicolon, colon, or dash)
+#
+# These need judgment: either extend to complete the thought, or trim back
+# to the previous complete sentence.
+#
+# Index numbers map to array positions in highlights.json.
+
+[Index 74] Wittgenstein: A Very Short Introduction (Very Short Introductions)
+  Author: Grayling, A. C.  |  Location: 1001-1005
+  Ends with: "… steps which brought us there:"
+  >>> ...‘working outwards’ by means of elucidations or clarifications results, in Wittgenstein’s view, in the attainment of a point of vantage from which one can survey the limits of meaningful discourse, and from which we can therefore recognize, for exactly what they are, the steps which brought us there:
+
+[Index 83] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 386-386
+  Ends with: "…y requirements into contracts;"
+  >>> procurement teams have to negotiate security requirements into contracts;
+
+[Index 89] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 797-798
+  Ends with: "…ed local environment provides,"
+  >>> a sense that multitenant public cloud architectures lack the defense in depth that a well-designed local environment provides,
+
+[Index 126] Thinking in Systems: A Primer
+  Author: Meadows, Donella H.  |  Location: 1009-1009
+  Ends with: "…, there is a perception delay,"
+  >>> First, there is a perception delay,
+
+[Index 166] Thinking in Systems: A Primer
+  Author: Meadows, Donella H.  |  Location: 2537-2539
+  Ends with: "…irection-setter of the system,"
+  >>> one of the most powerful ways to influence the behavior of a system is through its purpose or goal. That’s because the goal is the direction-setter of the system,
+
+[Index 171] Thinking in Systems: A Primer
+  Author: Meadows, Donella H.  |  Location: 2685-2686
+  Ends with: "…, for example, or birth rates,"
+  >>> Parameters become leverage points when they go into ranges that kick off one of the items higher on this list. Interest rates, for example, or birth rates,
+
+[Index 205] Wittgenstein: A Very Short Introduction (Very Short Introductions)
+  Author: Grayling, A. C.  |  Location: 1420-1421
+  Ends with: "…ed by the sound they uttered’,"
+  >>> ‘When my elders named some object … I grasped that the thing was called by the sound they uttered’,
+
+[Index 209] Wittgenstein: A Very Short Introduction (Very Short Introductions)
+  Author: Grayling, A. C.  |  Location: 1572-1574
+  Ends with: "…ct be applying it incorrectly;"
+  >>> A problem with the notion of rule-following is that on the one hand the feeling of being guided by a rule does not guarantee that the rule is being followed, for someone might think he is following a rule but in fact be applying it incorrectly;
+
+[Index 217] Wittgenstein: A Very Short Introduction (Very Short Introductions)
+  Author: Grayling, A. C.  |  Location: 1874-1875
+  Ends with: "…hich the waters flow (C 96–9);"
+  >>> Wittgenstein, rather, has it that the foundational beliefs are only relatively foundational – they are like the bed and banks of a river which determine the course along which the waters flow (C 96–9);
+
+[Index 228] The Life of Jesus
+  Author: Renan, Ernest  |  Location: 2713-2713
+  Ends with: "…be conquered without violence;"
+  >>> the kingdom of God could not be conquered without violence;
+
+[Index 254] The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations
+  Author: Buchanan, Ben  |  Location: 709-709
+  Ends with: "…r detailed history of Stuxnet:"
+  >>> journalist Kim Zetter noted in her detailed history of Stuxnet:
+
+[Index 294] The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations
+  Author: Buchanan, Ben  |  Location: 1906-1908
+  Ends with: "…ties and collect intelligence,"
+  >>> mitigators accept the notion that anarchy is a powerful force and that states’ need for security is deeply felt. As a result, states will develop military capabilities and collect intelligence,
+
+[Index 307] The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations
+  Author: Buchanan, Ben  |  Location: 2240-2240
+  Ends with: "…hapter) are highly classified,"
+  >>> (such as Presidential Policy Directive 20, discussed in the last chapter) are highly classified,
+
+[Index 403] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 2312-2313
+  Ends with: "…vs. the contracting function),"
+  >>> The organization should outline which function is ultimately responsible for managing vendors (e.g., a central risk function vs. the contracting function),
+
+[Index 409] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 2379-2380
+  Ends with: "… increase their comfort level;"
+  >>> Given regulators’ affinity for process, providing them with transparency into mechanisms for assessing risks, prioritizing investments, and setting policies can increase their comfort level;
+
+[Index 444] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 4741-4742
+  Ends with: "…limit coverage to $25 million,"
+  >>> Almost all carriers limit coverage to $25 million,
+
+[Index 446] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 4751-4752
+  Ends with: "…urance premiums by $7 million,"
+  >>> CISO might be able to make the case that spending $5 million to put differentiated protections in place would be worthwhile because it would reduce insurance premiums by $7 million,
+
+[Index 477] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 3950-3950
+  Ends with: "… company in a more secure way,"
+  >>> creating incentives for customers to engage with the company in a more secure way,
+
+[Index 486] Beyond Cybersecurity: Protecting Your Digital Business
+  Author: Kaplan, James M.;Bailey, Tucker;O'Halloran, Derek;Marcus, Alan;Rezek, Chris  |  Location: 4068-4069
+  Ends with: "…are four fairly common models:"
+  >>> Deciding to consolidate is relatively straightforward, but selecting the right role and reporting relationship for the CISO’s organization is much more complicated. There are four fairly common models:
+
+[Index 510] Leo Tolstoy: The Complete Novels and Novellas (Book House)
+  Author: Tolstoy, Leo  |  Location: 39917-39917
+  Ends with: "…tated by his own want of ease,"
+  >>> rather ill at ease and irritated by his own want of ease,
+
+[Index 533] Uncertain Justice: The Roberts Court and the Constitution
+  Author: Tribe, Laurence  |  Location: 4440-4440
+  Ends with: "…he views cameras as dangerous:"
+  >>> Ever protective of judicial integrity, Justice Kennedy has explained why he views cameras as dangerous:
+
+[Index 575] Understanding Cyber Conflict: Fourteen Analogies
+  Author:   |  Location: 4160-4162
+  Ends with: "…chelling’s Arms and Influence—"
+  >>> classics of nuclear strategy—including such notable works as Bernard Brodie’s Strategy in the Missile Age or Thomas Schelling’s Arms and Influence—
+
+[Index 632] Complexity: A Very Short Introduction (Very Short Introductions)
+  Author: Holland, John H.  |  Location: 1559-1560
+  Ends with: "… three generators, {–1, 0, 1},"
+  >>> When the + operator satisfies these requirements, the additive arithmetic of the entire set of positive and negative integers can be generated from an initial set of just three generators, {–1, 0, 1},
+
+[Index 666] Risk: A Very Short Introduction (Very Short Introductions)
+  Author: Fischhoff, Baruch  |  Location: 997-997
+  Ends with: "…y receive systematic feedback,"
+  >>> Experts might have more appropriate confidence levels if they receive systematic feedback,
+
+[Index 711] Risk: A Very Short Introduction (Very Short Introductions)
+  Author: Fischhoff, Baruch  |  Location: 1936-1937
+  Ends with: "…controls, weigh their demands,"
+  >>> When new dangers emerge, society must learn their causes and controls, weigh their demands,
+
+[Index 732] Machine, Platform, Crowd: Harnessing Our Digital Future
+  Author: McAfee, Andrew  |  Location: 110-112
+  Ends with: "…icated, deep, quick, chaotic”—"
+  >>> Sedol was regarded by many as the best human Go player on the planet,¶ and one of the best in living memory. His style was described as “intuitive, unpredictable, creative, intensive, wild, complicated, deep, quick, chaotic”—
+
+[Index 821] How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence
+  Author: Pollan, Michael  |  Location: 611-611
+  Ends with: "…d the experience as veridical—"
+  >>> of things? To the extent I regard the experience as veridical—
+
+[Index 859] The Good Soldier
+  Author: Ford, Ford Madox  |  Location: 135-135
+  Ends with: "…or looking through you,"
+  >>> or looking through you,
+
+[Index 974] The Perfect Weapon: War, Sabotage, and Fear in the Cyber Age
+  Author: Sanger, David E.  |  Location: 4774-4775
+  Ends with: "… people safer on the Internet,"
+  >>> Jared Cohen, the former State Department official who now runs Alphabet’s Jigsaw, a part of the Google parent company, which has done pioneering work in how to make people safer on the Internet,
+
+[Index 991] My Year of Rest and Relaxation
+  Author: Moshfegh, Ottessa  |  Location: 544-545
+  Ends with: "…Louisiana oilmen on the other—"
+  >>> Her family was the country club brand of alcoholic Southern Baptists—Mississippi loggers on one side, Louisiana oilmen on the other—
+
+[Index 998] My Year of Rest and Relaxation
+  Author: Moshfegh, Ottessa  |  Location: 2661-2662
+  Ends with: "…ding a sand castle at sundown,"
+  >>> She packed everything into the shopping bags with the urgent efficiency of someone building a sand castle at sundown,
+
+[Index 1003] Listening In: Cybersecurity in an Insecure Age
+  Author: Landau, Susan  |  Location: 1862-1863
+  Ends with: "…and targeting for recruitment,"
+  >>> In 2016, the US director of national intelligence, James Clapper, observed, “In the future, intelligence services might use the [Internet of Things] for identification, surveillance, monitoring, location tracking, and targeting for recruitment,
+
+[Index 1020] H Is for Hawk
+  Author: Macdonald, Helen  |  Location: 2168-2168
+  Ends with: "…y road. The man has saturnine,"
+  >>> mysterious man on a country road. The man has saturnine,
+
+[Index 1024] H Is for Hawk
+  Author: Macdonald, Helen  |  Location: 2436-2436
+  Ends with: "…k upon is covered in gossamer,"
+  >>> bare field we’d flown the hawk upon is covered in gossamer,
+
+[Index 1025] H Is for Hawk
+  Author: Macdonald, Helen  |  Location: 2477-2480
+  Ends with: "…f silence I’d worn for months,"
+  >>> ... could not see them – that if I stood in the right place, and was lucky, this might somehow be revealed to me. And the sun on the glass and the memory of the shining field, and the awful laughter, and the kindness of that morning’s meeting must have thinned the armour of silence I’d worn for months,
+
+[Index 1059] Tools and Weapons
+  Author: Smith, Brad  |  Location: 562-564
+  Ends with: "…team take turns being on call,"
+  >>> ...ENS team is on call 24-7, meaning for a week at a time he or she will sleep next to a phone in case there is an emergency or terrorist incident somewhere in the world that requires immediate action. During weeks when the world is turned upside down, members of the LENS team take turns being on call,
+
+[Index 1090] Memories, Dreams, Reflections
+  Author: Jung, C.G.  |  Location: 767-767
+  Ends with: "…, and that Peter, the waverer,"
+  >>> on me that the unjust steward was praised, and that Peter, the waverer,
+
+[Index 1097] Moby Dick: or, the White Whale
+  Author: Melville, Herman  |  Location: 3212-3213
+  Ends with: "…ike edge of the sharper waves,"
+  >>> the brief suspended agony of the boat, as it would tip for an instant on the knife-like edge of the sharper waves,
+
+[Index 1101] Moby Dick: or, the White Whale
+  Author: Melville, Herman  |  Location: 3374-3374
+  Ends with: "…hrieks of the ocean prevailed;"
+  >>> By night the same muteness of humanity before the shrieks of the ocean prevailed;
+
+[Index 1122] The Good Soldier
+  Author: Ford, Ford Madox  |  Location: 2080-2081
+  Ends with: "…nt up to a place called Simla,"
+  >>> threadbare business. When they went up to a place called Simla,
+
+[Index 1153] Blindness (Harvest Book)
+  Author: Saramago, José  |  Location: 1306-1307
+  Ends with: "…greatest of all excuses, fear,"
+  >>> much worse was the behaviour of the soldiers who are here to protect us, and even they can invoke the greatest of all excuses, fear,
+
+[Index 1168] Memories, Dreams, Reflections
+  Author: Jung, Carl Gustav  |  Location: 1489-1489
+  Ends with: "…s. It was a giant radiolarian,"
+  >>> or of organs shaped like tentacles. It was a giant radiolarian,
+
+[Index 1173] Memories, Dreams, Reflections
+  Author: Jung, Carl Gustav  |  Location: 1698-1698
+  Ends with: "…rmous quantities of knowledge,"
+  >>> while science opened the door to enormous quantities of knowledge,
+
+[Index 1174] Memories, Dreams, Reflections
+  Author: Jung, Carl Gustav  |  Location: 1698-1699
+  Ends with: "…nuine insights very sparingly,"
+  >>> while science opened the door to enormous quantities of knowledge, it provided genuine insights very sparingly,
+
+[Index 1197] Barbarians at the Gate
+  Author: Burrough, Bryan  |  Location: 838-839
+  Ends with: "…s time enjoying the high life,"
+  >>> Years of scrambling had soured him on long-range planning. Instead he spent his time enjoying the high life,
+
+[Index 1210] Blindness (Harvest Book)
+  Author: Saramago, José  |  Location: 1499-1500
+  Ends with: "…uld not see their adversaries,"
+  >>> The contaminated defended the door with punches and kicks, the blind retaliated as best they could, they could not see their adversaries,
+
+[Index 1228] From Ritual to Romance
+  Author: Weston, Jessie Laidlay  |  Location: 756-756
+  Ends with: "…the Fisher King in Perlesvaus,"
+  >>> 'falls into languishment,' as does the Fisher King in Perlesvaus,
+
+[Index 1244] Miss Lonelyhearts & The Day of the Locust (New Edition)
+  Author: New Directions Paperbook  |  Location: 1389-1392
+  Ends with: "…lood in Medicine Hat, Wyoming,"
+  >>> ...infinite number of them. As he put it, his life had consisted of a lightning series of “nip-ups,” “high-gruesomes,” “flying-W’s” and “hundred-and-eights” done to escape a barrage of “exploding stoves.” An “exploding stove” was any catastrophe, natural or human, from a flood in Medicine Hat, Wyoming,
+
+[Index 1266] Miss Lonelyhearts & The Day of the Locust (New Edition)
+  Author: New Directions Paperbook  |  Location: 3109-3111
+  Ends with: "… mental equipment for leisure,"
+  >>> Once there, they discover that sunshine isn’t enough. They get tired of oranges, even of avocado pears and passion fruit. Nothing happens. They don’t know what to do with their time. They haven’t the mental equipment for leisure,
+
+[Index 1267] Miss Lonelyhearts & The Day of the Locust (New Edition)
+  Author: New Directions Paperbook  |  Location: 3115-3116
+  Ends with: "… fires, miracles, revolutions,"
+  >>> Every day of their lives they read the newspapers and went to the movies. Both fed them on lynchings, murder, sex crimes, explosions, wrecks, love nests, fires, miracles, revolutions,
+
+[Index 1291] All the King's Men
+  Author: Warren, Robert Penn  |  Location: 769-769
+  Ends with: "…nights behind those jalousies,"
+  >>> Well, I’d put in a good many nights behind those jalousies,
+
+[Index 1297] The Great Alone
+  Author: Hannah, Kristin  |  Location: 3389-3389
+  Ends with: "…Mr. Walker walked toward them,"
+  >>> Mr. Walker walked toward them,
+
+[Index 1313] The Savage Detectives: A Novel
+  Author: Bolaño, Roberto  |  Location: 3536-3539
+  Ends with: "… a last round of Los Suicidas,"
+  >>> ...s I drank I read to them from that distant year of 1921 and we discussed it all, the passages and the mezcal, what a lovely way to read and drink, at leisure and among friends (young people have always been my friends), and when there was only a little bit left I poured a last round of Los Suicidas,
+
+[Index 1338] The Myth of Sisyphus And Other Essays (Vintage International)
+  Author: Camus, Albert  |  Location: 1457-1457
+  Ends with: "…orture. His scorn of the gods,"
+  >>> He is, as much through his passions as through his torture. His scorn of the gods,
+
+[Index 1349] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 3315-3315
+  Ends with: "… above the world, monogrammed,"
+  >>> out above the world, monogrammed,
+
+[Index 1379] Wittgenstein: A Very Short Introduction (Very Short Introductions)
+  Author: Grayling, A. C.  |  Location: 652-652
+  Ends with: "…called the predicate calculus;"
+  >>> propositional calculus the resulting language is called the predicate calculus;
+
+[Index 1385] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 7427-7428
+  Ends with: "… seventy-five miles from home,"
+  >>> Staatsburg was seventy-five miles from home,
+
+[Index 1388] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 8222-8222
+  Ends with: "…ds in a school corridor maybe,"
+  >>> holding hands in a school corridor maybe,
+
+[Index 1394] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 8683-8683
+  Ends with: "…beef on the hoof,"
+  >>> beef on the hoof,
+
+[Index 1411] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 9493-9493
+  Ends with: "…scatterhanded,"
+  >>> scatterhanded,
+
+[Index 1428] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 10974-10974
+  Ends with: "…aten society’s peaceful sleep,"
+  >>> the hordes who threaten society’s peaceful sleep,
+
+[Index 1439] Underworld: A Novel
+  Author: DeLillo, Don  |  Location: 11496-11497
+  Ends with: "…ong for, the days of disarray,"
+  >>> I’ll tell you what I long for, the days of disarray,
+
+[Index 1448] Memories, Dreams, Reflections
+  Author: Jung, Carl Gustav  |  Location: 5453-5453
+  Ends with: "…ly disseminated Book of Enoch,"
+  >>> experience of Job, or in the widely disseminated Book of Enoch,
+
+[Index 1460] Darkness Visible: A Memoir of Madness
+  Author: Styron, William  |  Location: 236-237
+  Ends with: "…e disorder that afflicted him,"
+  >>> Romain told me that Jean was being treated for the disorder that afflicted him,
+
+[Index 1475] Thomas Wolfe: The Complete Works
+  Author: Wolfe, Thomas  |  Location: 37628-37629
+  Ends with: "…re. Born to brick and asphalt,"
+  >>> The city was their stony-hearted mother, and from her breast they had drawn a bitter nurture. Born to brick and asphalt,
+
+[Index 1479] Thomas Wolfe: The Complete Works
+  Author: Wolfe, Thomas  |  Location: 37705-37709
+  Ends with: "…directions, you have faltered,"
+  >>> ...ons of the soul—but so have we. You found the earth too great for your one life, you found your brain and sinew smaller than the hunger and desire that fed on them—but it has been this way with all men. You have stumbled on in darkness, you have been pulled in opposite directions, you have faltered,
+
+[Index 1481] Thomas Wolfe: The Complete Works
+  Author: Wolfe, Thomas  |  Location: 37727-37729
+  Ends with: "…bursting from the earth again,"
+  >>> ... and death will always be the same. But under the pavements trembling like a pulse, under the buildings trembling like a cry, under the waste of time, under the hoof of the beast above the broken bones of cities, there will be something growing like a flower, something bursting from the earth again,
+
+[Index 1486] Thomas Wolfe: The Complete Works
+  Author: Wolfe, Thomas  |  Location: 37774-37775
+  Ends with: "…The station, as he entered it,"
+  >>> he had a long train ride ahead of him, and he pushed his somber feelings into the background and allowed himself to savor freely the eager excitement which any journey by train always gave him. The station, as he entered it,
+
+[Index 1540] The Essays of Arthur Schopenhauer: the Wisdom of Life
+  Author: Schopenhauer, Arthur  |  Location: 635-636
+  Ends with: "…mind that is greedy of praise:"
+  >>> Otherwise, a man is the slave of what other people are pleased to think,--and how little it requires to disconcert or soothe the mind that is greedy of praise:
+
+[Index 1546] Horse Crazy
+  Author: Indiana, Gary  |  Location: 703-703
+  Ends with: "…s afraid I’ll find him boring,"
+  >>> he’s afraid I’ll find his afraid I’ll find him boring,
+
+[Index 1567] Heart Of Darkness: The Original 1899 Edition (A Joseph Conrad Classic Novel)
+  Author: Conrad, Joseph  |  Location: 795-798
+  Ends with: "… Was it superstition, disgust,"
+  >>> ...more serious onslaught which came in due course. Yes; I looked at them as you would on any human being, with a curiosity of their impulses, motives, capacities, weaknesses, when brought to the test of an inexorable physical necessity. Restraint! What possible restraint? Was it superstition, disgust,
+
+[Index 1592] The Bhagavad Gita (Easwaran's Classics of Indian Spirituality)
+  Author: Easwaran, Eknath  |  Location: 630-630
+  Ends with: "…“Love, then do as you like”:"
+  >>> “Love, then do as you like”:
+
+[Index 1605] Memories, Dreams, Reflections
+  Author: Jung, Carl Gustav  |  Location: 3646-3646
+  Ends with: "…gods. For the devout Asiatic,"
+  >>> gods. For the devout Asiatic,
+
+[Index 1611] Miss MacIntosh, My Darling - Marguerite Young
+  Author: Marguerite Young  |  Location: 307-308
+  Ends with: "…the world were crying outside,"
+  >>> The bus-windows had turned to a cold, steaming greyness as if only the ghost of the world were crying outside,
+
+[Index 1625] The Sun Also Rises (AmazonClassics Edition)
+  Author: Hemingway, Ernest  |  Location: 1269-1269
+  Ends with: "…d concrete-looking in the sun,"
+  >>> high and white and concrete-looking in the sun,
+
+[Index 1627] The Sun Also Rises (AmazonClassics Edition)
+  Author: Hemingway, Ernest  |  Location: 1304-1305
+  Ends with: "…ze door and a big wooden door,"
+  >>> has nothing to do with the story. Anyway, his office had a green baize door and a big wooden door,
+
+[Index 1653] Drive Your Plow Over the Bones of the Dead
+  Author: Tokarczuk, Olga  |  Location: 811-811
+  Ends with: "…s—was stronger than the hyleg,"
+  >>> harmful planets—Mars, Saturn or Uranus—was stronger than the hyleg,
+
+[Index 1654] Drive Your Plow Over the Bones of the Dead
+  Author: Tokarczuk, Olga  |  Location: 829-830
+  Ends with: "… are built with stones of Law,"
+  >>> Prisons are built with stones of Law,
+
+[Index 1669] Drive Your Plow Over the Bones of the Dead
+  Author: Tokarczuk, Olga  |  Location: 1651-1655
+  Ends with: "…ssed up, what we’ve neglected;"
+  >>> ...o in this sort of situation. My lips were on the point of producing one of these impertinent “why don’t yous” when I bit my tongue. That’s just what the color magazines do—just for a moment I’d wanted to be like them: they tell us what we’ve failed to do, where we’ve messed up, what we’ve neglected;
+
+[Index 1683] Drive Your Plow Over the Bones of the Dead
+  Author: Tokarczuk, Olga  |  Location: 2817-2820
+  Ends with: "… life away on petty pleasures,"
+  >>> ...es a strange kind of laziness—lifetime opportunities are missed, because you overslept, because you didn’t feel like going, because you were late, because you were neglectful. It’s a tendency to be sybaritic, to live in a state of mild semiconsciousness, to fritter your life away on petty pleasures,
+
+[Index 1689] The Rings of Saturn
+  Author: Sebald, W. G.  |  Location: 180-181
+  Ends with: "…teur anatomist René Descartes,"
+  >>> such as envisaged by the enthusiastic amateur anatomist René Descartes,
+
+[Index 1713] The Rings of Saturn
+  Author: Sebald, W. G.  |  Location: 1713-1713
+  Ends with: "…x block a glowering mausoleum,"
+  >>> its Magnox block a glowering mausoleum,
+
+[Index 1743] The Year of Magical Thinking (Vintage International)
+  Author: Didion, Joan  |  Location: 2265-2265
+  Ends with: "…Five Days in London: May 1940,"
+  >>> Five Days in London: May 1940,
+
+[Index 1744] The Year of Magical Thinking (Vintage International)
+  Author: Didion, Joan  |  Location: 2265-2265
+  Ends with: "…Five Days in London: May 1940,"
+  >>> John Lukacs’s Five Days in London: May 1940,
+
+[Index 1757] From Ritual to Romance
+  Author: Weston, Jessie Laidlay  |  Location: 432-433
+  Ends with: "…dies of Mannhardt, and Frazer,"
+  >>> following as they do upon the illuminating studies of Mannhardt, and Frazer,
+
+[Index 1760] The Bell Jar (Modern Classics)
+  Author: Plath, Sylvia  |  Location: 526-529
+  Ends with: "…le way doing what I shouldn’t,"
+  >>> ...w or the luncheon or the film première, but that I would not go to Coney Island either, I would stay in bed. After Doreen left, I wondered why I couldn’t go the whole way doing what I should any more. This made me sad and tired. Then I wondered why I couldn’t go the whole way doing what I shouldn’t,
+
+[Index 1768] The Crying of Lot 49
+  Author: Pynchon, Thomas  |  Location: 56-57
+  Ends with: "…full of chingas and maricones;"
+  >>> Negro, then on into hostile Pachuco dialect, full of chingas and maricones;
+
+[Index 1782] The Magic Mountain
+  Author: Thomas Mann  |  Location: 403-404
+  Ends with: "…gly conservative cast of mind,"
+  >>> Long before Hans Lorenz Castorp’s passing, his person and the things for which he stood had ceased to be representative of his age. He had been a typical Christian gentleman, of the Reformed faith, of a strongly conservative cast of mind,
+
+[Index 1790] The Bhagavad Gita (Easwaran's Classics of Indian Spirituality)
+  Author: Easwaran, Eknath  |  Location: 215-215
+  Ends with: "…l ideas: Brahman, the Godhead;"
+  >>> and the Upanishads agree on their central ideas: Brahman, the Godhead;
+
+[Index 1791] The Complete Fiction of H. P. Lovecraft
+  Author: Lovecraft, H. P.  |  Location: 6125-6126
+  Ends with: "…ed, touched on cases of panic,"
+  >>> this fraction. It is well that no explanation shall ever reach them. The press cuttings, as I have intimated, touched on cases of panic,
+
+[Index 1798] The Sportswriter (Bascombe Trilogy)
+  Author: Ford, Richard  |  Location: 738-739
+  Ends with: "…y in an attempt to be serious,"
+  >>> we both got gloomy in an attempt to be serious,
+
+[Index 1805] Varieties of Religious Experience, a Study in Human Nature
+  Author: James, William  |  Location: 2486-2486
+  Ends with: "… sudden conversion to avarice,"
+  >>> Character, there is an account of a case of sudden conversion to avarice,
+
+[Index 1839] Leo Tolstoy: The Complete Novels and Novellas
+  Author: Tolstoy, Leo  |  Location: 3804-3806
+  Ends with: "…always glad to listen to them,"
+  >>> ...mated conversation with our friends Dubkoff and Nechludoff, and tell us and our guests, over and over again, his plans for the year. Although these plans changed almost from day to day, and were for ever contradicting one another, they seemed so attractive that we were always glad to listen to them,
+
+[Index 1853] Steppenwolf (Picador Modern Classics)
+  Author: Hesse, Hermann  |  Location: 145-147
+  Ends with: "…he same thing as sheer egoism,"
+  >>> ...vor to love them, to be just to them, to do them no harm, for the love of his neighbor was as deeply in him as the hatred of himself, and so his whole life was an example that love of one’s neighbor is not possible without love of oneself, and that self-hate is really the same thing as sheer egoism,

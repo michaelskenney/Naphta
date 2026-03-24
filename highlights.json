@@ -868,13 +868,6 @@
   {
     "book": "Thinking in Systems: A Primer",
     "author": "Meadows, Donella H.",
-    "text": "—Jay W. Forrester3",
-    "location": "587-588",
-    "date": "Sunday, February 19, 2017 6:30:46 PM"
-  },
-  {
-    "book": "Thinking in Systems: A Primer",
-    "author": "Meadows, Donella H.",
     "text": "A feedback loop is formed when changes in a stock affect the flows into or out of that same stock.",
     "location": "592-593",
     "date": "Sunday, February 19, 2017 6:32:26 PM"
@@ -1383,7 +1376,7 @@
   {
     "book": "Thinking in Systems: A Primer",
     "author": "Meadows, Donella H.",
-    "text": "In a strict systems sense, there is no long term, short-term distinction. Phenomena at different time-scales are nested within each other. Actions taken now have some immediate effects and some that radiate out for decades to come. We",
+    "text": "In a strict systems sense, there is no long term, short-term distinction. Phenomena at different time-scales are nested within each other. Actions taken now have some immediate effects and some that radiate out for decades to come.",
     "location": "3322-3324",
     "date": "Tuesday, March 7, 2017 11:33:07 PM"
   },
@@ -1902,7 +1895,7 @@
   {
     "book": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
     "author": "Buchanan, Ben",
-    "text": "Decontamination is no good unless defenders stop the next operation, too. Part of decontamination therefore is adaptation. The defenders must perform a detailed after-action investigation to determine which procedures and pieces of software they need to change to meet the threat. This",
+    "text": "Decontamination is no good unless defenders stop the next operation, too. Part of decontamination therefore is adaptation. The defenders must perform a detailed after-action investigation to determine which procedures and pieces of software they need to change to meet the threat.",
     "location": "1199-1201",
     "date": "Tuesday, April 11, 2017 7:37:02 AM"
   },
@@ -2280,7 +2273,7 @@
   {
     "book": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
     "author": "Buchanan, Ben",
-    "text": "A final part of the United Nations’ 2015 document stipulates that states should assist other states’ investigations launched from a state’s territory. If states were to reach actionable multilateral agreement on this issue,40 it would mark important progress in international engagement. Such cooperation could build trust and improve working relationships. Fully realized, it would enable better and more coordinated action against cyber criminals operating without the support of a state. It",
+    "text": "A final part of the United Nations’ 2015 document stipulates that states should assist other states’ investigations launched from a state’s territory. If states were to reach actionable multilateral agreement on this issue,40 it would mark important progress in international engagement. Such cooperation could build trust and improve working relationships. Fully realized, it would enable better and more coordinated action against cyber criminals operating without the support of a state.",
     "location": "2568-2572",
     "date": "Monday, April 17, 2017 5:52:28 PM"
   },
@@ -2728,7 +2721,7 @@
   {
     "book": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
     "author": "Singh, Simon",
-    "text": "The cipher of Mary Queen of Scots clearly demonstrates that a weak encryption can be worse than no encryption at all. Both",
+    "text": "The cipher of Mary Queen of Scots clearly demonstrates that a weak encryption can be worse than no encryption at all.",
     "location": "834-834",
     "date": "Wednesday, May 17, 2017 8:46:21 AM"
   },
@@ -2756,7 +2749,7 @@
   {
     "book": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
     "author": "Singh, Simon",
-    "text": "Frequently he would be stumped, partly because the syllabic values were never obvious, partly because some of the numbers represented single letters rather than syllables, and partly because the Rossignols had laid traps within the cipher. For example, one number represented neither a syllable nor a letter, but instead deviously deleted the previous number. When",
+    "text": "Frequently he would be stumped, partly because the syllabic values were never obvious, partly because some of the numbers represented single letters rather than syllables, and partly because the Rossignols had laid traps within the cipher. For example, one number represented neither a syllable nor a letter, but instead deviously deleted the previous number.",
     "location": "1058-1061",
     "date": "Monday, May 22, 2017 5:49:18 PM"
   },
@@ -3782,7 +3775,7 @@
   {
     "book": "The Myth of Sisyphus: And Other Essays (Vintage International)",
     "author": "Camus, Albert",
-    "text": "Now, to limit myself to existential philosophies, I see that all of them without exception suggest escape. Through an odd reasoning, starting out from the absurd over the ruins of reason, in a closed universe limited to the human, they deify what crushes them and find reason to hope in what impoverishes them. That forced",
+    "text": "Now, to limit myself to existential philosophies, I see that all of them without exception suggest escape. Through an odd reasoning, starting out from the absurd over the ruins of reason, in a closed universe limited to the human, they deify what crushes them and find reason to hope in what impoverishes them.",
     "location": "409-411",
     "date": "Tuesday, September 26, 2017 9:31:45 PM",
     "page": "32"
@@ -3977,7 +3970,7 @@
   {
     "book": "Understanding Cyber Conflict: Fourteen Analogies",
     "author": "",
-    "text": "In other cases, cyber capabilities—such as the capacity to send a message to anyone entering a certain area—can directly carry a warning. In 2014 protestors",
+    "text": "In other cases, cyber capabilities—such as the capacity to send a message to anyone entering a certain area—can directly carry a warning.",
     "location": "973-974",
     "date": "Friday, November 17, 2017 1:17:42 PM"
   },
@@ -4832,7 +4825,7 @@
   {
     "book": "Risk: A Very Short Introduction (Very Short Introductions)",
     "author": "Fischhoff, Baruch",
-    "text": "The simplest analyses involve counts, such as falls, drowning, and cholera cases. Interpreting those counts requires thinking about possible causes of the risks, which include risk sources, pathways, exposures, and population characteristics. Clarifying",
+    "text": "The simplest analyses involve counts, such as falls, drowning, and cholera cases. Interpreting those counts requires thinking about possible causes of the risks, which include risk sources, pathways, exposures, and population characteristics.",
     "location": "1019-1020",
     "date": "Monday, January 29, 2018 9:49:18 AM",
     "page": "63"
@@ -4848,7 +4841,7 @@
   {
     "book": "Risk: A Very Short Introduction (Very Short Introductions)",
     "author": "Fischhoff, Baruch",
-    "text": "if people’s preferences among simple gambles follow a few apparently reasonable rules, then they will choose the option with the greatest expected utility, no matter how complicated the choice. One of those rules is comparability; people who follow it can compare any two options, meaning that they prefer A to B, B to A, or are indifferent between them. A second rule is transitivity; meaning that if A is preferred to B and B to C, then A is preferred to C. Another rule is having a certainty equivalent for any gamble, a guaranteed pay-off (or loss) that would be just as good (or bad) as that of the gamble with the probabilities. The",
+    "text": "if people’s preferences among simple gambles follow a few apparently reasonable rules, then they will choose the option with the greatest expected utility, no matter how complicated the choice. One of those rules is comparability; people who follow it can compare any two options, meaning that they prefer A to B, B to A, or are indifferent between them. A second rule is transitivity; meaning that if A is preferred to B and B to C, then A is preferred to C. Another rule is having a certainty equivalent for any gamble, a guaranteed pay-off (or loss) that would be just as good (or bad) as that of the gamble with the probabilities.",
     "location": "1080-1084",
     "date": "Monday, January 29, 2018 5:41:22 PM",
     "page": "69"
@@ -5192,7 +5185,7 @@
   {
     "book": "Risk: A Very Short Introduction (Very Short Introductions)",
     "author": "Fischhoff, Baruch",
-    "text": "the modern study of risk began with the countable (gambles, insurance, social problems) and progressed to the novel (species extinction, terror). When",
+    "text": "the modern study of risk began with the countable (gambles, insurance, social problems) and progressed to the novel (species extinction, terror).",
     "location": "1969-1970",
     "date": "Tuesday, February 13, 2018 10:11:35 AM",
     "page": "140"
@@ -6381,7 +6374,7 @@
   {
     "book": "Memories, Dreams, Reflections",
     "author": "Jung, C.G.",
-    "text": "The influence of this wider world, this world which contained others besides my parents, seemed to me dubious if not altogether suspect and, in some obscure way, hostile. Though",
+    "text": "The influence of this wider world, this world which contained others besides my parents, seemed to me dubious if not altogether suspect and, in some obscure way, hostile.",
     "location": "433-434",
     "date": "Thursday, August 9, 2018 9:45:54 PM"
   },
@@ -6423,7 +6416,7 @@
   {
     "book": "Crashed: How a Decade of Financial Crises Changed the World",
     "author": "Tooze, Adam",
-    "text": "Dollar hegemony was made through a network. It",
+    "text": "Dollar hegemony was made through a network.",
     "location": "1657-1657",
     "date": "Monday, August 27, 2018 7:07:43 PM"
   },
@@ -6444,7 +6437,7 @@
   {
     "book": "Crashed: How a Decade of Financial Crises Changed the World",
     "author": "Tooze, Adam",
-    "text": "hundreds of billions but in trillions. In the",
+    "text": "hundreds of billions but in trillions.",
     "location": "1837-1837",
     "date": "Tuesday, August 28, 2018 6:36:26 AM"
   },
@@ -7572,7 +7565,7 @@
   {
     "book": "The Brothers Karamazov",
     "author": "Dostoyevsky, Fyodor",
-    "text": "but, to my thinking, miracles are never a stumbling-block to the realist. It",
+    "text": "but, to my thinking, miracles are never a stumbling-block to the realist.",
     "location": "456-457",
     "date": "Saturday, May 4, 2019 9:37:03 PM",
     "page": "24"
@@ -7644,7 +7637,7 @@
   {
     "book": "The Myth of Sisyphus: And Other Essays (Vintage International)",
     "author": "Camus, Albert",
-    "text": "prolixity are absurd procedures. At least at first sight. For",
+    "text": "prolixity are absurd procedures. At least at first sight.",
     "location": "543-543",
     "date": "Wednesday, July 24, 2019 9:39:53 PM",
     "page": "44"
@@ -7724,7 +7717,7 @@
   {
     "book": "Moby Dick: or, the White Whale",
     "author": "Melville, Herman",
-    "text": "And once for all, let me tell thee and assure thee, young man, it's better to sail with a moody good captain than a laughing bad one. So",
+    "text": "And once for all, let me tell thee and assure thee, young man, it's better to sail with a moody good captain than a laughing bad one.",
     "location": "1172-1173",
     "date": "Saturday, August 17, 2019 1:36:14 PM",
     "page": "73"
@@ -7780,7 +7773,7 @@
   {
     "book": "Moby Dick: or, the White Whale",
     "author": "Melville, Herman",
-    "text": "absent conquering Earls, the golden helmeted suns! For sleeping man, 'twas hard to choose between such winsome days and such seducing nights. But",
+    "text": "absent conquering Earls, the golden helmeted suns! For sleeping man, 'twas hard to choose between such winsome days and such seducing nights.",
     "location": "1773-1774",
     "date": "Thursday, September 12, 2019 8:46:41 PM",
     "page": "115"
@@ -7788,7 +7781,7 @@
   {
     "book": "Moby Dick: or, the White Whale",
     "author": "Melville, Herman",
-    "text": "know? Who's made appointments with him in the hold? Ain't that queer, now? But there's no telling, it's the old game— Here goes for a snooze. Damn me, it's worth a fellow's while to be born into the world, if only to fall right asleep. And now that I think of it, that's about the first thing babies do, and that's a sort of queer, too. Damn me, but all things are queer, come to think of 'em. But that's against my principles. Think",
+    "text": "know? Who's made appointments with him in the hold? Ain't that queer, now? But there's no telling, it's the old game— Here goes for a snooze. Damn me, it's worth a fellow's while to be born into the world, if only to fall right asleep. And now that I think of it, that's about the first thing babies do, and that's a sort of queer, too. Damn me, but all things are queer, come to think of 'em. But that's against my principles.",
     "location": "1806-1809",
     "date": "Thursday, September 12, 2019 8:54:58 PM",
     "page": "117"
@@ -7916,7 +7909,7 @@
   {
     "book": "Tools and Weapons",
     "author": "Smith, Brad",
-    "text": "not by assessing whether content itself is true or false but instead by providing social media users with accurate information on people’s identity. It’s",
+    "text": "not by assessing whether content itself is true or false but instead by providing social media users with accurate information on people’s identity.",
     "location": "1644-1645",
     "date": "Thursday, October 10, 2019 9:31:51 PM",
     "page": "104"
@@ -7956,7 +7949,7 @@
   {
     "book": "Moby Dick: or, the White Whale",
     "author": "Melville, Herman",
-    "text": "Time and tide flow wide. The hated whale has the round watery world to swim in, as the small gold-fish has its glassy globe. His heaven-insulting purpose, God may wedge aside. I would up heart, were it not like lead. But my whole",
+    "text": "Time and tide flow wide. The hated whale has the round watery world to swim in, as the small gold-fish has its glassy globe. His heaven-insulting purpose, God may wedge aside. I would up heart, were it not like lead.",
     "location": "2418-2420",
     "date": "Saturday, October 12, 2019 10:23:14 PM",
     "page": "156"
@@ -7972,7 +7965,7 @@
   {
     "book": "Moby Dick: or, the White Whale",
     "author": "Melville, Herman",
-    "text": "Whelped somewhere by the sharkish sea. The",
+    "text": "Whelped somewhere by the sharkish sea.",
     "location": "2421-2422",
     "date": "Sunday, October 13, 2019 9:44:15 PM",
     "page": "156"
@@ -8044,7 +8037,7 @@
   {
     "book": "Moby Dick: or, the White Whale",
     "author": "Melville, Herman",
-    "text": "most imperial and archangelical apparition of that unfallen, western world, which to the eyes of the old trappers and hunters revived the glories of those primeval times when Adam walked majestic as a god, bluff-bowed and fearless as this mighty steed. Whether",
+    "text": "most imperial and archangelical apparition of that unfallen, western world, which to the eyes of the old trappers and hunters revived the glories of those primeval times when Adam walked majestic as a god, bluff-bowed and fearless as this mighty steed.",
     "location": "2718-2719",
     "date": "Monday, October 28, 2019 9:33:16 PM",
     "page": "176"
@@ -8220,7 +8213,7 @@
   {
     "book": "The Good Soldier",
     "author": "Ford, Ford Madox",
-    "text": "Well, I always say that an overmastering passion is a good excuse for feelings. You cannot help them. And",
+    "text": "Well, I always say that an overmastering passion is a good excuse for feelings. You cannot help them.",
     "location": "1038-1039",
     "date": "Monday, March 16, 2020 9:46:40 PM"
   },
@@ -8367,7 +8360,7 @@
   {
     "book": "The Good Soldier",
     "author": "Ford, Ford Madox",
-    "text": "she, Nancy, possessed his soul—a precious thing that she would shield and bear away up in her arms—as if Leonora were a hungry dog, trying to spring up at a lamb that she was carrying. Yes,",
+    "text": "she, Nancy, possessed his soul—a precious thing that she would shield and bear away up in her arms—as if Leonora were a hungry dog, trying to spring up at a lamb that she was carrying.",
     "location": "2832-2833",
     "date": "Saturday, May 2, 2020 2:20:48 PM"
   },
@@ -8388,7 +8381,7 @@
   {
     "book": "The Good Soldier",
     "author": "Ford, Ford Madox",
-    "text": "Neither of those two women knew what they wanted. It was only Edward who took a perfectly clear line, and he was drunk most of the time. But,",
+    "text": "Neither of those two women knew what they wanted. It was only Edward who took a perfectly clear line, and he was drunk most of the time.",
     "location": "2952-2953",
     "date": "Saturday, May 2, 2020 2:39:35 PM"
   },
@@ -8516,7 +8509,7 @@
   {
     "book": "Blindness (Harvest Book)",
     "author": "Saramago, José",
-    "text": "presence of the doctor’s wife proved to be useful. A few",
+    "text": "presence of the doctor’s wife proved to be useful.",
     "location": "1200-1201",
     "date": "Thursday, June 11, 2020 8:28:38 PM",
     "page": "88"
@@ -8708,7 +8701,7 @@
   {
     "book": "Memories, Dreams, Reflections",
     "author": "Jung, Carl Gustav",
-    "text": "The naïve person does not appreciate what an insult it is to talk to one’s fellows about anything that is unknown to them. They pardon such ruthless behavior only in a writer, journalist, or poet. I",
+    "text": "The naïve person does not appreciate what an insult it is to talk to one’s fellows about anything that is unknown to them. They pardon such ruthless behavior only in a writer, journalist, or poet.",
     "location": "1783-1784",
     "date": "Sunday, July 19, 2020 9:19:53 PM",
     "page": "128"
@@ -8764,7 +8757,7 @@
   {
     "book": "Memories, Dreams, Reflections",
     "author": "Jung, Carl Gustav",
-    "text": "confront the patient as one human being to another. Analysis",
+    "text": "confront the patient as one human being to another.",
     "location": "2219-2219",
     "date": "Friday, July 24, 2020 3:19:21 PM",
     "page": "159"
@@ -9001,7 +8994,7 @@
   {
     "book": "The Savage Detectives: A Novel",
     "author": "Bolaño, Roberto",
-    "text": "think I shut my eyes out of sheer sympathetic embarrassment. There’s a time for reciting poems and a time for fists. As far as I was concerned, this was the latter. But",
+    "text": "think I shut my eyes out of sheer sympathetic embarrassment. There’s a time for reciting poems and a time for fists. As far as I was concerned, this was the latter.",
     "location": "109-110",
     "date": "Sunday, November 22, 2020 10:04:36 PM",
     "page": "6"
@@ -9033,7 +9026,7 @@
   {
     "book": "The Savage Detectives: A Novel",
     "author": "Bolaño, Roberto",
-    "text": "A stranger would have assumed that we were there to make love. The idea was gruesome. Just thinking about it made my stomach lurch. Lupe",
+    "text": "A stranger would have assumed that we were there to make love. The idea was gruesome. Just thinking about it made my stomach lurch.",
     "location": "1695-1696",
     "date": "Monday, December 14, 2020 10:16:45 PM",
     "page": "94"
@@ -9273,7 +9266,7 @@
   {
     "book": "Miss Lonelyhearts & The Day of the Locust (New Edition)",
     "author": "New Directions Paperbook",
-    "text": "Only those who still have hope can benefit from tears. When",
+    "text": "Only those who still have hope can benefit from tears.",
     "location": "1826-1827",
     "date": "Wednesday, March 31, 2021 10:23:33 PM",
     "page": "103"
@@ -9922,7 +9915,7 @@
   {
     "book": "Lost in the Valley of Death",
     "author": "Rustad, Harley",
-    "text": "date passed in case he had simply lost his phone. When",
+    "text": "date passed in case he had simply lost his phone.",
     "location": "1912-1912",
     "date": "Tuesday, August 30, 2022 10:06:16 PM",
     "page": "125"
@@ -9938,7 +9931,7 @@
   {
     "book": "Lost in the Valley of Death",
     "author": "Rustad, Harley",
-    "text": "What does a man need—really need? A few pounds of food each day, heat and shelter, six feet to lie down in—and some form of working activity that will yield a sense of accomplishment. That’s all—in the material sense. And we know it. But we are brainwashed by our economic system until we end up in a tomb beneath a pyramid of time payments, mortgages, preposterous gadgetry, playthings that divert our attention for the sheer idiocy of the charade. The years thunder by. The dreams",
+    "text": "What does a man need—really need? A few pounds of food each day, heat and shelter, six feet to lie down in—and some form of working activity that will yield a sense of accomplishment. That’s all—in the material sense. And we know it. But we are brainwashed by our economic system until we end up in a tomb beneath a pyramid of time payments, mortgages, preposterous gadgetry, playthings that divert our attention for the sheer idiocy of the charade. The years thunder by.",
     "location": "2266-2270",
     "date": "Friday, September 2, 2022 10:15:06 PM",
     "page": "148"
@@ -9978,7 +9971,7 @@
   {
     "book": "The Myth of Sisyphus And Other Essays (Vintage International)",
     "author": "Camus, Albert",
-    "text": "You have already grasped that Sisyphus is the absurd hero. He is, as much through his passions as through his torture. His scorn of the gods, his hatred of death, and his passion for life won him that unspeakable penalty in which the whole being is exerted toward accomplishing nothing. This is the",
+    "text": "You have already grasped that Sisyphus is the absurd hero. He is, as much through his passions as through his torture. His scorn of the gods, his hatred of death, and his passion for life won him that unspeakable penalty in which the whole being is exerted toward accomplishing nothing.",
     "location": "1456-1458",
     "date": "Wednesday, September 7, 2022 9:15:57 PM",
     "page": "120"
@@ -10082,7 +10075,7 @@
   {
     "book": "Underworld: A Novel",
     "author": "DeLillo, Don",
-    "text": "The nuns sat in the van and looked. At",
+    "text": "The nuns sat in the van and looked.",
     "location": "3491-3492",
     "date": "Sunday, October 23, 2022 12:50:37 AM"
   },
@@ -10680,7 +10673,7 @@
   {
     "book": "Underworld: A Novel",
     "author": "DeLillo, Don",
-    "text": "“I’m smoking a cigar and drinking a brandy. Don’t contradict me.” He looks",
+    "text": "“I’m smoking a cigar and drinking a brandy. Don’t contradict me.”",
     "location": "11351-11352",
     "date": "Wednesday, March 22, 2023 9:32:16 PM",
     "page": "797"
@@ -10944,7 +10937,7 @@
   {
     "book": "Thomas Wolfe: The Complete Works",
     "author": "Wolfe, Thomas",
-    "text": "“Miss Esther Jack has been engaged to design the show.” She laughed because",
+    "text": "“Miss Esther Jack has been engaged to design the show.”",
     "location": "37226-37226",
     "date": "Monday, May 22, 2023 9:13:45 PM",
     "page": "2647"
@@ -10952,7 +10945,7 @@
   {
     "book": "Thomas Wolfe: The Complete Works",
     "author": "Wolfe, Thomas",
-    "text": "Would she accept this compromise? Would she take his love, but leave him free to live his life and do his work? That was the way he told her it must be, and she said yes, she understood. But could she do it? Was it in a woman’s nature to be content with all that a man could give her, and not forever want what was not his to give? Already",
+    "text": "Would she accept this compromise? Would she take his love, but leave him free to live his life and do his work? That was the way he told her it must be, and she said yes, she understood. But could she do it? Was it in a woman’s nature to be content with all that a man could give her, and not forever want what was not his to give?",
     "location": "37267-37269",
     "date": "Tuesday, May 23, 2023 10:55:57 PM",
     "page": "2650"
@@ -11304,7 +11297,7 @@
   {
     "book": "The Way of Zen",
     "author": "",
-    "text": "Oddly enough, if we had to decide to decide, we would not be free to decide. We are free to decide because decision “happens.” We",
+    "text": "Oddly enough, if we had to decide to decide, we would not be free to decide. We are free to decide because decision “happens.”",
     "location": "2304-2304",
     "date": "Friday, October 20, 2023 10:29:23 PM",
     "page": "121"
@@ -11352,7 +11345,7 @@
   {
     "book": "The Glass Bead Game",
     "author": "Hesse, Hermann",
-    "text": "Because of the dearth of the preceding period—at any rate what seemed to me a dearth—my real feeling is that these fulfillments are coming rather too suddenly and too abundantly. There is a measure of unease mingled with my gratitude, as if the vessel is so filled to the brim that only another drop is needed to tilt it. But, please, consider that I have not said this; in this situation every word is already too much.” As",
+    "text": "Because of the dearth of the preceding period—at any rate what seemed to me a dearth—my real feeling is that these fulfillments are coming rather too suddenly and too abundantly. There is a measure of unease mingled with my gratitude, as if the vessel is so filled to the brim that only another drop is needed to tilt it. But, please, consider that I have not said this; in this situation every word is already too much.”",
     "location": "3022-3026",
     "date": "Tuesday, October 31, 2023 9:09:12 PM",
     "page": "202"
@@ -11367,7 +11360,7 @@
   {
     "book": "The Glass Bead Game",
     "author": "Hesse, Hermann",
-    "text": "Every Castalian institute and every Castalian should hold to only two goals and ideals: to attain to the utmost command of his subject, and to keep himself and his subject vital and flexible by forever recognizing its ties with all other disciplines and by maintaining amicable relations with all. This",
+    "text": "Every Castalian institute and every Castalian should hold to only two goals and ideals: to attain to the utmost command of his subject, and to keep himself and his subject vital and flexible by forever recognizing its ties with all other disciplines and by maintaining amicable relations with all.",
     "location": "3463-3465",
     "date": "Wednesday, November 29, 2023 11:36:00 PM",
     "page": "233"
@@ -11490,7 +11483,7 @@
   {
     "book": "War and Peace",
     "author": "Tolstoy, Leo",
-    "text": "across the Channel. I think the expedition is quite feasible. If only Villeneuve",
+    "text": "across the Channel. I think the expedition is quite feasible.",
     "location": "1265-1266",
     "date": "Wednesday, January 24, 2024 10:18:43 PM"
   },
@@ -11526,7 +11519,7 @@
   {
     "book": "Horse Crazy",
     "author": "Indiana, Gary",
-    "text": "this time waiting is practically a declaration of contempt. Rupture belts. Imagine",
+    "text": "this time waiting is practically a declaration of contempt.",
     "location": "310-311",
     "date": "Thursday, February 22, 2024 9:26:53 PM"
   },
@@ -11589,7 +11582,7 @@
   {
     "book": "Horse Crazy",
     "author": "Indiana, Gary",
-    "text": "These lies have a youthful charm, they protect his ego and he believes them. But",
+    "text": "These lies have a youthful charm, they protect his ego and he believes them.",
     "location": "1436-1436",
     "date": "Friday, March 22, 2024 10:30:51 PM"
   },
@@ -11731,7 +11724,7 @@
   {
     "book": "Heart Of Darkness: The Original 1899 Edition (A Joseph Conrad Classic Novel)",
     "author": "Conrad, Joseph",
-    "text": "He had been a very second-rate helmsman while alive, but now he was dead he might have become a first-class temptation, and possibly cause some startling trouble. Besides,",
+    "text": "He had been a very second-rate helmsman while alive, but now he was dead he might have become a first-class temptation, and possibly cause some startling trouble.",
     "location": "993-994",
     "date": "Tuesday, May 14, 2024 9:21:29 PM",
     "page": "94"
@@ -11779,7 +11772,7 @@
   {
     "book": "Heart Of Darkness: The Original 1899 Edition (A Joseph Conrad Classic Novel)",
     "author": "Conrad, Joseph",
-    "text": "I have wrestled with death. It is the most unexciting contest you can imagine. It takes place in an impalpable greyness, with nothing underfoot, with nothing around, without spectators, without clamour, without glory, without the great desire of victory, without the great fear of defeat, in a sickly atmosphere of tepid scepticism, without much belief in your own right, and still less in that of your adversary. If such is the form of ultimate wisdom, then life is a greater riddle than some of us think it to be. I",
+    "text": "I have wrestled with death. It is the most unexciting contest you can imagine. It takes place in an impalpable greyness, with nothing underfoot, with nothing around, without spectators, without clamour, without glory, without the great desire of victory, without the great fear of defeat, in a sickly atmosphere of tepid scepticism, without much belief in your own right, and still less in that of your adversary. If such is the form of ultimate wisdom, then life is a greater riddle than some of us think it to be.",
     "location": "1373-1377",
     "date": "Monday, May 27, 2024 8:58:57 PM",
     "page": "131"
@@ -11851,7 +11844,7 @@
   {
     "book": "The Bhagavad Gita (Easwaran's Classics of Indian Spirituality)",
     "author": "Easwaran, Eknath",
-    "text": "says they are just as intimately related. Just as",
+    "text": "says they are just as intimately related.",
     "location": "433-433",
     "date": "Saturday, June 8, 2024 9:58:32 PM",
     "page": "43"
@@ -12011,7 +12004,7 @@
   {
     "book": "Memories, Dreams, Reflections",
     "author": "Jung, Carl Gustav",
-    "text": "have done without electricity, and tend the fireplace and stove myself. Evenings, I light the old lamps. There is no running water, and I pump the water from the well. I chop the wood and cook the food. These",
+    "text": "have done without electricity, and tend the fireplace and stove myself. Evenings, I light the old lamps. There is no running water, and I pump the water from the well. I chop the wood and cook the food.",
     "location": "3759-3760",
     "date": "Monday, August 12, 2024 9:11:56 PM",
     "page": "270"
@@ -12074,7 +12067,7 @@
   {
     "book": "The Sun Also Rises (AmazonClassics Edition)",
     "author": "Hemingway, Ernest",
-    "text": "Lyons making a speech, or, rather he was on his way back. Several",
+    "text": "Lyons making a speech, or, rather he was on his way back.",
     "location": "492-493",
     "date": "Friday, August 23, 2024 9:38:42 PM",
     "page": "44"
@@ -12194,7 +12187,7 @@
   {
     "book": "The Sun Also Rises (AmazonClassics Edition)",
     "author": "Hemingway, Ernest",
-    "text": "That has nothing to do with the story. Anyway,",
+    "text": "That has nothing to do with the story.",
     "location": "1304-1304",
     "date": "Wednesday, August 28, 2024 9:57:34 PM",
     "page": "103"
@@ -12288,14 +12281,14 @@
   {
     "book": "Horse Crazy",
     "author": "Indiana, Gary",
-    "text": "At first, Gregory’s description sounded just dull enough to be true. But as it developed, I recognized the bravura, hurried style of Gregory’s improvisations. When Gregory invents, he patters, giving his listener no room for questions. When I don’t believe what he says, I work my face into what I hope is a neutral, credulous expression. His lies make me embarrassed for him. As",
+    "text": "At first, Gregory’s description sounded just dull enough to be true. But as it developed, I recognized the bravura, hurried style of Gregory’s improvisations. When Gregory invents, he patters, giving his listener no room for questions. When I don’t believe what he says, I work my face into what I hope is a neutral, credulous expression. His lies make me embarrassed for him.",
     "location": "1745-1748",
     "date": "Thursday, October 17, 2024 9:59:53 PM"
   },
   {
     "book": "Horse Crazy",
     "author": "Indiana, Gary",
-    "text": "he’s putting words on things that can only be real if they exist in silence. Where",
+    "text": "he’s putting words on things that can only be real if they exist in silence.",
     "location": "1767-1768",
     "date": "Thursday, October 17, 2024 10:03:00 PM"
   },
@@ -12310,7 +12303,7 @@
   {
     "book": "Thomas Wolfe: The Complete Works",
     "author": "Wolfe, Thomas",
-    "text": "battered little notebooks, asking him to sign his autograph. He behaved",
+    "text": "battered little notebooks, asking him to sign his autograph.",
     "location": "37930-37931",
     "date": "Friday, October 18, 2024 10:20:52 PM",
     "page": "2931"
@@ -12494,7 +12487,7 @@
   {
     "book": "Drive Your Plow Over the Bones of the Dead",
     "author": "Tokarczuk, Olga",
-    "text": "There’s no escaping it. I cannot be someone other than I am. How awful. We’d prefer to think we’re free, able to reinvent ourselves whenever we choose. This connection with something as great and monumental as the sky makes us feel uncomfortable. We’d rather be small, and then our petty little sins would be forgivable. Therefore",
+    "text": "There’s no escaping it. I cannot be someone other than I am. How awful. We’d prefer to think we’re free, able to reinvent ourselves whenever we choose. This connection with something as great and monumental as the sky makes us feel uncomfortable. We’d rather be small, and then our petty little sins would be forgivable.",
     "location": "1447-1450",
     "date": "Thursday, December 12, 2024 10:24:27 PM",
     "page": "112"
@@ -12709,7 +12702,7 @@
   {
     "book": "The Rings of Saturn",
     "author": "Sebald, W. G.",
-    "text": "Indeed, old families last not three oaks. To set one’s name to a work gives no one a title to be remembered, for who knows how many of the best of men have gone without a trace? The",
+    "text": "Indeed, old families last not three oaks. To set one’s name to a work gives no one a title to be remembered, for who knows how many of the best of men have gone without a trace?",
     "location": "277-278",
     "date": "Sunday, February 23, 2025 10:33:23 PM",
     "page": "24"
@@ -12717,7 +12710,7 @@
   {
     "book": "The Rings of Saturn",
     "author": "Sebald, W. G.",
-    "text": "iniquity of oblivion blindly scatters her poppyseed and when wretchedness falls upon us one summer’s day like snow, all we wish for is to be forgotten. These",
+    "text": "iniquity of oblivion blindly scatters her poppyseed and when wretchedness falls upon us one summer’s day like snow, all we wish for is to be forgotten.",
     "location": "278-279",
     "date": "Sunday, February 23, 2025 10:33:46 PM",
     "page": "24"
@@ -12725,7 +12718,7 @@
   {
     "book": "The Rings of Saturn",
     "author": "Sebald, W. G.",
-    "text": "Saracens with next to no fuel, the fire being visible far and wide. Indeed, he",
+    "text": "Saracens with next to no fuel, the fire being visible far and wide.",
     "location": "288-288",
     "date": "Monday, February 24, 2025 10:23:05 PM",
     "page": "25"
@@ -12909,7 +12902,7 @@
   {
     "book": "The Rings of Saturn",
     "author": "Sebald, W. G.",
-    "text": "to be lodged, and there to approach the dark grotto. And did Holderlin",
+    "text": "to be lodged, and there to approach the dark grotto.",
     "location": "1807-1808",
     "date": "Sunday, April 6, 2025 10:07:40 PM",
     "page": "182"
@@ -12997,7 +12990,7 @@
   {
     "book": "The Year of Magical Thinking (Vintage International)",
     "author": "Didion, Joan",
-    "text": "was in the sixth-floor ICU at Beth Israel North I had kept on the table by my bed a paperback copy of Intensive Care: A Doctor’s Journal, by John F. Murray, M.D.,",
+    "text": "was in the sixth-floor ICU at Beth Israel North I had kept on the table by my bed a paperback copy of Intensive Care: A Doctor’s Journal, by John F.",
     "location": "1082-1083",
     "date": "Sunday, April 13, 2025 8:26:25 PM",
     "page": "102"
@@ -13013,7 +13006,7 @@
   {
     "book": "The Year of Magical Thinking (Vintage International)",
     "author": "Didion, Joan",
-    "text": "Santa Ana was back. The jacaranda",
+    "text": "Santa Ana was back.",
     "location": "1247-1248",
     "date": "Monday, April 14, 2025 9:48:26 PM",
     "page": "117"
@@ -13061,7 +13054,7 @@
   {
     "book": "The Year of Magical Thinking (Vintage International)",
     "author": "Didion, Joan",
-    "text": "“It all evens out in the end,” John said, an answer that bewildered me (what did it mean, couldn’t he do better than that?) but one that seemed to satisfy her. Several years later, after Susan’s mother and father died within a year or two of each other, Susan asked if I remembered John telling Quintana that it all evened out in the end. I said I remembered. “He was right,” Susan said. “It did.” I recall being shocked. It had never occurred to me that John meant that bad news will come to each of us. Either Susan or Quintana had surely misunderstood. I explained to Susan that John had meant something entirely different: he had meant that people who get bad news will eventually get their share of good news. “That’s not what I meant at all,” John said. “I knew what he meant,” Susan said. Had I understood nothing? Consider",
+    "text": "“It all evens out in the end,” John said, an answer that bewildered me (what did it mean, couldn’t he do better than that?) but one that seemed to satisfy her. Several years later, after Susan’s mother and father died within a year or two of each other, Susan asked if I remembered John telling Quintana that it all evened out in the end. I said I remembered. “He was right,” Susan said. “It did.” I recall being shocked. It had never occurred to me that John meant that bad news will come to each of us. Either Susan or Quintana had surely misunderstood. I explained to Susan that John had meant something entirely different: he had meant that people who get bad news will eventually get their share of good news. “That’s not what I meant at all,” John said. “I knew what he meant,” Susan said. Had I understood nothing?",
     "location": "1830-1840",
     "date": "Sunday, April 20, 2025 8:17:42 PM",
     "page": "173"
@@ -13365,7 +13358,7 @@
   {
     "book": "The Bhagavad Gita (Easwaran's Classics of Indian Spirituality)",
     "author": "Easwaran, Eknath",
-    "text": "Change is the nature of the mind. The",
+    "text": "Change is the nature of the mind.",
     "location": "231-231",
     "date": "Wednesday, June 25, 2025 10:19:54 PM",
     "page": "25"
@@ -13502,7 +13495,7 @@
   {
     "book": "The Sportswriter (Bascombe Trilogy)",
     "author": "Ford, Richard",
-    "text": "One thing certain is that I had somehow lost my sense of anticipation at age twenty-five. Anticipation is the sweet pain to know whatever’s next—a must for any real writer. And I had no more interest in what I might write next—the next sentence, the next day—than I cared what a rock weighed on Mars. Nor",
+    "text": "One thing certain is that I had somehow lost my sense of anticipation at age twenty-five. Anticipation is the sweet pain to know whatever’s next—a must for any real writer. And I had no more interest in what I might write next—the next sentence, the next day—than I cared what a rock weighed on Mars.",
     "location": "693-695",
     "date": "Thursday, October 2, 2025 10:18:12 PM",
     "page": "43"
@@ -14046,7 +14039,7 @@
   {
     "book": "Steppenwolf (Picador Modern Classics)",
     "author": "Hesse, Hermann",
-    "text": "and he took up his abode always among the middle classes, with whose habits and standards and atmosphere he stood in a constant relation, even though it might be one of contrast and revolt. Moreover,",
+    "text": "and he took up his abode always among the middle classes, with whose habits and standards and atmosphere he stood in a constant relation, even though it might be one of contrast and revolt.",
     "location": "658-659",
     "date": "Tuesday, February 24, 2026 10:50:45 PM",
     "page": "51"
@@ -14110,7 +14103,7 @@
   {
     "book": "Junky",
     "author": "Burroughs, William S.",
-    "text": "was a doddering old man and could not resist the junkies who filled his office and were, in fact, his only patients. It seemed to give him a feeling of importance to look out and see an office full of people. I",
+    "text": "was a doddering old man and could not resist the junkies who filled his office and were, in fact, his only patients. It seemed to give him a feeling of importance to look out and see an office full of people.",
     "location": "706-708",
     "date": "Sunday, March 1, 2026 10:54:34 PM",
     "page": "15"
