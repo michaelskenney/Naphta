@@ -107,6 +107,22 @@
 
 <script>
   let highlights = [];
+  let sinceLastCyber = Infinity; // how many non-cyber highlights since last cyber one
+
+  const cyberBooks = new Set([
+    'Beyond Cybersecurity: Protecting Your Digital Business',
+    'CUCKOO\'S EGG',
+    'Cybersecurity First Principles: A Reboot of Strategy and Tactics',
+    'How to Measure Anything in Cybersecurity Risk',
+    'Listening In: Cybersecurity in an Insecure Age',
+    'The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography',
+    'The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations',
+    'The Perfect Weapon: War, Sabotage, and Fear in the Cyber Age',
+    'Understanding Cyber Conflict: Fourteen Analogies',
+    'Tools and Weapons',
+  ]);
+
+  function isCyber(h) { return cyberBooks.has(h.book); }
 
   function formatAuthor(raw) {
     if (!raw) return '';
@@ -137,7 +153,15 @@
 
   function random() {
     if (!highlights.length) return;
-    show(highlights[Math.floor(Math.random() * highlights.length)]);
+    let pick;
+    let attempts = 0;
+    do {
+      pick = highlights[Math.floor(Math.random() * highlights.length)];
+      attempts++;
+    } while (isCyber(pick) && sinceLastCyber < 4 && attempts < 50);
+
+    sinceLastCyber = isCyber(pick) ? 0 : sinceLastCyber + 1;
+    show(pick);
   }
 
   document.body.addEventListener('click', random);
